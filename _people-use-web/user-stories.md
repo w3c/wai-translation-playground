@@ -1,26 +1,25 @@
 ---
 title: "Stories of Web Users"
 order: 1
-date: 2017-05-15
-people:
-  editorslabel: "Editor"
-  editors:
-    - name: Shadi Abou-Zahra
-      url: https://www.w3.org/People/shadi
-  contributors:
-support:
-  - name: WAI-AGE Project
-    url: https://www.w3.org/WAI/WAI-AGE/
-  - name: WAI-AGE Task Force
-    url: https://www.w3.org/WAI/EO/2008/wai-age-tf
+footer: >
+  <p><strong>Date:</strong> Updated 15 May 2017.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a> and Norah Sinclair. Previous editor: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Acknowledgments</a>.</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
+
 ---
 
-The following stories are selected scenarios of people with disabilities
-using the Web, to highlight the effect of web accessibility barriers and
-the broader benefits of accessible websites and web tools.
+{::nomarkdown}
+{% include box.html type="start" h="2" title="Summary" class="full" %}
+{:/}
 
-**Note:** The following scenarios do not represent actual individuals
-and do not address every kind of disability.
+The following stories of people with disabilities using the Web highlight the effect of accessibility barriers and the broader benefits of accessible websites and web tools.
+
+**Note:** The following scenarios are not real people. They do not address every kind of disability.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 
 {::options toc_levels="2" /}
 
@@ -35,13 +34,12 @@ and do not address every kind of disability.
 {% include_cached toc.html type="end" %}
 {:/}
 
+{% include excol.html type="all" %}
 
 Lee, online shopper with color blindness {#shopper}
 ---------------------------------------------------
 
-Lee is colorblind and encounters barriers when shopping online –
-
-Lee has one of the most common visual disabilities that affect men, red and green color blindness. Lee frequently shops online and sometimes encounters problems on websites and with apps where the color contrast of text and images is not adequate and where color alone is used to indicate required fields and sale prices. When red and green color combinations are used, Lee cannot distinguish between the two, since both look brown to him. It is also very difficult for him to make product choices when color swatches are not labeled with the name of the color.
+Lee is colorblind and encounters barriers when shopping online. He has one of the most common visual disabilities that affect men: red and green color blindness. Lee frequently shops online and sometimes encounters problems on websites and with apps where the color contrast of text and images is not adequate and where color alone is used to indicate required fields and sale prices. When red and green color combinations are used, Lee cannot distinguish between the two, since both look brown to him. It is also very difficult for him to make product choices when color swatches are not labeled with the name of the color.
 
 Lee has better experiences with online content and apps that use adequate contrast and allow him to adjust contrast settings in his browser. He is also better able to recognize when information is required when asterisks are used. Lee can more easily identify the products he would like to purchase, especially clothing, when the color label names are included in the selection options rather than color swatches alone.
 
@@ -53,22 +51,22 @@ For more information on implementing techniques that remove barriers for Lee, se
 
 {% include_cached excol.html type="middle" %}
 
-**Diversity of web users:**
+**Diverse Abilities and Barriers**
 
--   [Color blindness (Visual disabilities)]({% link _people-use-web/abilities-barriers.md %}#visual)
+-   [Color blindness (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual)
 
-**Diversity in web use:**
+**Tools and Techniques**
 
--   [Customized fonts and colors (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Customized fonts and colors (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
 
 **Accessibility principles:**
 
 -   [Content can be presented in different ways
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#adaptable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
 -   [Content is easier to see and hear
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#distinguishable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable)
 -   [Content is compatible with current and future user tools
-    (Robust)](https://www.w3.org/WAI/intro/people-use-web/principles.html#compatible)
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
 
 {% include_cached excol.html type="end" %}
 
@@ -84,7 +82,7 @@ Though it took considerable research, time, and commitment to learn, he is able 
 * voice recognition software on his computer and mobile phone
 * assistive touch on his mobile phone
 
-Alex encounters problems when websites and other online content cannot be navigated by keyboard commands alone. He frequently encounters web forms that do not have keyboard equivalents. Sometimes it is also difficult to skip content and navigate to sections on a webpage without using many keyboard commands, which is very tiring and limits the time he can spend working comfortably. He also recently began to explore the use of assistive touch on his mobile phone which also helps him use fewer gestures and work for longer periods of time.) As a temporary fix, Alex’s employer has built several custom work arounds that provide keyboard support for his use of the company’s internal Content Management System with the intention to implement improved keyboard support to benefit all users on the next release of the software.
+Alex encounters problems when websites and other online content cannot be navigated by keyboard commands alone. He frequently encounters web forms that do not have keyboard equivalents. Sometimes it is also difficult to skip content and navigate to sections on a webpage without using many keyboard commands, which is very tiring and limits the time he can spend working comfortably. He also recently began to explore the use of assistive touch on his mobile phone which also helps him use fewer gestures and work for longer periods of time. As a temporary fix, Alex’s employer has built several custom work arounds that provide keyboard support for his use of the company’s internal Content Management System with the intention to implement improved keyboard support to benefit all users on the next release of the software.
 
 For more information on implementing techniques that remove barriers for Alex, see the following resources:
 
@@ -94,38 +92,38 @@ For more information on implementing techniques that remove barriers for Alex, s
 
 {% include_cached excol.html type="middle" %}
 
-**Diversity of web users:**
+**Diverse Abilities and Barriers**
 
 -   [Repetitive stress injury (Physical
-    disabilities)]({% link _people-use-web/abilities-barriers.md %}#physical)
+    disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#physical)
 
-**Diversity in web use:**
+**Tools and Techniques**
 
--   [Accelerators (Input)]({% link _people-use-web/tools-techniques.md %}#input)
--   [Alternative keyboard and mouse (Input)]({% link _people-use-web/tools-techniques.md %}#input)
--   [Voice recognition (Input)]({% link _people-use-web/tools-techniques.md %}#input)
--   [Word prediction (Input)]({% link _people-use-web/tools-techniques.md %}#input)
--   [Keyboard navigation (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
--   [Skip links (Interation)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Accelerators (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
+-   [Alternative keyboard and mouse (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
+-   [Voice recognition (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
+-   [Word prediction (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
+-   [Keyboard navigation (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   [Skip links (Interation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#alternatives)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
 -   [Content can be presented in different ways
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#adaptable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
 -   [Functionality is available from a keyboard
-    (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#keyboard)
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#keyboard)
 -   [Users have enough time to read and use the content
-    (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#time)
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#navigable)
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#predictable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
 -   [Users are helped to avoid and correct mistakes
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#tolerant)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant)
 -   [Content is compatible with current and future user tools
-    (Robust)](https://www.w3.org/WAI/intro/people-use-web/principles.html#compatible)
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
 
 {% include_cached excol.html type="end" %}
 
@@ -134,7 +132,7 @@ Martine, online student who is hard of hearing {#onlinestudent}
 
 Martine is 62 years old and has been hard of hearing since birth. She can hear some sounds, but not enough to understand speech. As a child she learned sign language and during her early school years learned written language. She is currently a student again, taking online college courses.
 
-The university she attends provides sign language interpreters and CART writers who provide written verbatim text interpreting of spoken language for her courses. However, Martine has encountered barriers when video and other media content are not captioned. The university became aware of the need and requirement to provide captioned media and transcripts for audio content and is now working with a captioning provider to caption all content posted on university websites and course content in learning management systems, following the WCAG guidelines. In addition to providing access to the content for students who are deaf or hard of hearing, the university has found that the use of captions and transcripts facilitates easier production of subtitles in a number of languages and improves the indexing of their online content which provides improved search engine optimization and improved discoverability of the university’s online content.
+The university she attends provides sign language interpreters and Communication Access Realtime Translation (CART) writers who provide written verbatim text interpreting of spoken language for her courses. However, Martine has encountered barriers when video and other media content are not captioned. The university became aware of the need and requirement to provide captioned media and transcripts for audio content and is now working with a captioning provider to caption all content posted on university websites, including all course content in learning management systems. In addition to providing access to the content for students who are deaf or hard of hearing, the university has found that the use of captions and transcripts has added benefits. Transcripts facilitate easier production of subtitles in a number of languages and also improve the indexing of online content. Improved indexing provides improved search engine optimization and improved discoverability of the university’s online content. The university follows WCAG guidelines in providing the captioned content.
 
 For more information on implementing techniques that remove barriers for Martine, see the following resources:
 
@@ -144,26 +142,26 @@ For more information on implementing techniques that remove barriers for Martine
 
 {% include_cached excol.html type="middle" %}
 
-**Diversity of web users:**
+**Diverse Abilities and Barriers**
 
--   [Hard of hearing (Auditory disabilities)]({% link _people-use-web/abilities-barriers.md %}#auditory)
+-   [Hard of hearing (Auditory disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#auditory)
 
-**Diversity in web use:**
+**Tools and Techniques**
 
--   [Captions (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Transcripts (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Sign language (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Captions (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Transcripts (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Sign language (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#alternatives)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
 -   [Captions and other alternatives for multimedia
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#captions)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#captions)
 -   [Content is easier to see and hear
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#distinguishable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable)
 -   [Content is readable and understandable
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#readable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable)
 
 {% include_cached excol.html type="end" %}
 
@@ -187,52 +185,52 @@ For more information on implementing techniques that remove barriers for Ilya, s
 
 {% include_cached excol.html type="middle" %}
 
-**Diversity of web users:**
+**Diverse Abilities and Barriers**
 
--   [Blindness (Visual disabilities)]({% link _people-use-web/abilities-barriers.md %}#visual)
+-   [Blindness (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual)
 
-**Diversity in web use:**
+**Tools and Techniques**
 
--   [Screen reader (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Text-to-speech (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Transcripts (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Consistency and predictability (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Screen reader (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Text-to-speech (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Transcripts (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 -   [Descriptive titles, headings, and labels
-    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 -   [Helpful error and success messages
-    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
--   [Keyboard navigation (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
--   [Skip links (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   [Keyboard navigation (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   [Skip links (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#alternatives)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
 -   [Captions and other alternatives for multimedia
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#captions)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#captions)
 -   [Content can be presented in different ways
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#adaptable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
 -   [Content is easier to see and hear
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#distinguishable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable)
 -   [Functionality is available from a keyboard
-    (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#keyboard)
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#keyboard)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#navigable)
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
 -   [Content is readable and understandable
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#readable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#predictable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
 -   [Content is compatible with current and future user tools
-    (Robust)](https://www.w3.org/WAI/intro/people-use-web/principles.html#compatible)
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
 
 {% include_cached excol.html type="end" %}
 
-Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia {#classroomstudent}
+Preety, middle school student with attention deficit hyperactivity disorder and dyslexia {#classroomstudent}
 -----------------------------------------------------------------------------------------------------------
 
 Preety is a middle school student with attention deficit hyperactivity disorder with dyslexia. Although she has substantial difficulty reading, she particularly enjoys her literature class.
 
-Preety’s school recently started using online digital textbooks. Preety was initially worried about using this new format, but with the use of text-to-speech software that highlights the text on the screen as it reads it aloud, she has found that she can focus on the content more easily instead of struggling over every word. The text-to-speech software is also helpful with other online text, however, Preety’s experience with websites varies greatly from one site to another. Some sites use graphics and illustrations in a way that helps her to focus on the sections and content that she would like to read, while other sites have a lot of advertisements and moving content that is very distracting. She also experiences problems with online content when the navigation is not clearly evident. She finds websites and apps that provide multiple means of navigation such as a navigation bar, search box, bread-crumb trails, and a sitemap to be much easier to use.
+Preety’s school recently started using online digital textbooks. Preety was initially worried about using this new format, but with the use of text-to-speech software that highlights the text on the screen as it reads it aloud, she has found that she can focus on the content more easily instead of struggling over every word. The text-to-speech software is also helpful with other online text; however, Preety’s experience with websites varies greatly from one site to another. Some sites use graphics and illustrations in a way that helps her to focus on the sections and content that she would like to read, while other sites have a lot of advertisements and moving content that is very distracting. She also experiences problems with online content when the navigation is not clearly evident. She finds websites and apps that provide multiple means of navigation such as a navigation bar, search box, bread-crumb trails, and a sitemap to be much easier to use.
 
 Preety's school is also using a new online library catalog with improved accessibility. Before the new catalog was implemented Preety had to physically visit the library to receive assistance in searching and locating material. Now she can search the catalog on her own using her mobile phone, tablet, or laptop. Preety still struggles with spelling but has found that search functionality that suggest alternative spellings and provide error corrections are very helpful and greatly improve her experience.
 
@@ -244,52 +242,52 @@ For more information on implementing techniques that remove barriers for Preety,
 
 {% include_cached excol.html type="middle" %}
 
-**Diversity of web users:**
+**Diverse Abilities and Barriers**
 
 -   [Attention deficit hyperactivity disorder, ADHD (Cognitive
-    disabilities)]({% link _people-use-web/abilities-barriers.md %}#cognitive)
--   [Dyslexia (Cognitive disabilities)]({% link _people-use-web/abilities-barriers.md %}#cognitive)
+    disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive)
+-   [Dyslexia (Cognitive disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive)
 
-**Diversity in web use:**
+**Tools and Techniques**
 
--   [Captions (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Screen reader (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Text-to-speech (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
+-   [Captions (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Screen reader (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Text-to-speech (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
 -   [Pop-up and animations blockers
-    (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
--   [Reading assistants (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
--   [Spelling and grammar tools (input)]({% link _people-use-web/tools-techniques.md %}#input)
--   [Consistency and predictability (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
+-   [Reading assistants (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
+-   [Spelling and grammar tools (input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
+-   [Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 -   [Helpful error and success messages
-    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
--   [Keyword search (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
--   [Multiple navigation mechanisms (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   [Keyword search (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   [Multiple navigation mechanisms (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#alternatives)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
 -   [Content can be presented in different ways
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#adaptable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
 -   [Users have enough time to read and use the content
-    (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#time)
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#navigable)
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
 -   [Content is readable and understandable
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#readable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#predictable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
 -   [Users are helped to avoid and correct mistakes
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#tolerant)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant)
 -   [Content is compatible with current and future user tools
-    (Robust)](https://www.w3.org/WAI/intro/people-use-web/principles.html#compatible)
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
 
 {% include_cached excol.html type="end" %}
 
 Yun, retiree with low vision, hand tremor, and mild short-term memory loss {#retiree}
 --------------------------------------------------------------------------------------------
 
-Yun is an 85 year-old with reduced vision, hand-tremor, and mild memory loss, common age- related impairments for someone his age. Yun regularly browses the web reading news sites In recent years he also started using social media to stay in touch with his family and friends. He maintains his own blog where he posts articles on art history and other topics he enjoys.
+Yun is an 85 year-old with reduced vision, hand-tremor, and mild memory loss; common age-related impairments for someone his age. Yun regularly browses the web reading news sites. In recent years he also started using social media to stay in touch with his family and friends. He maintains his own blog where he posts articles on art history and other topics he enjoys.
 
 Like many older individuals, Yun has difficulty reading small text and clicking on small links and form elements. His daughter showed him how to enlarge text in the web browser, which works well on many websites. He encounters problems when text does not reflow when it is enlarged and he is forced to scroll back and forth to read the enlarged content, which means he easily loses track of his place. He also has problems with CAPTCHA images found on many social media sites. The text is so distorted, even when he enlarges it, that he often cannot accurately enter the text. He has a better experience on sites that use alternative CAPTCHA options, unfortunately only a small number currently do.
 
@@ -303,46 +301,46 @@ For more information on implementing techniques that remove barriers for Yun, se
 
 {% include_cached excol.html type="middle" %}
 
-**Diversity of web users:**
+**Diverse Abilities and Barriers**
 
--   [Low vision (Visual disabilities)]({% link _people-use-web/abilities-barriers.md %}#visual)
--   [Hand tremor (Physical disabilities)]({% link _people-use-web/abilities-barriers.md %}#physical)
+-   [Low vision (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual)
+-   [Hand tremor (Physical disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#physical)
 -   [Mild short-term memory loss (Cognitive
-    disabilities)]({% link _people-use-web/abilities-barriers.md %}#cognitive)
+    disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive)
 
-**Diversity in web use:**
+**Tools and Techniques**
 
--   [Screen magnification (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
--   [Alternative keyboard and mouse (Input)]({% link _people-use-web/tools-techniques.md %}#input)
--   [Keyboard and mouse filters (Input)]({% link _people-use-web/tools-techniques.md %}#input)
--   [Mouse customization (Input)]({% link _people-use-web/tools-techniques.md %}#input)
--   [Bookmarks and history (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
--   [Consistency and predictability (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+-   [Screen magnification (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
+-   [Alternative keyboard and mouse (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
+-   [Keyboard and mouse filters (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
+-   [Mouse customization (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
+-   [Bookmarks and history (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   [Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 -   [Descriptive titles, headings, and labels
-    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 -   [Helpful error and success messages
-    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#alternatives)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
 -   [Content can be presented in different ways
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#adaptable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
 -   [Content is easier to see and hear
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#distinguishable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable)
 -   [Users have enough time to read and use the content
-    (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#time)
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#navigable)
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
 -   [Content is readable and understandable
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#readable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#predictable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
 -   [Users are helped to avoid and correct mistakes
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#tolerant)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant)
 -   [Content is compatible with current and future user tools
-    (Robust)](https://www.w3.org/WAI/intro/people-use-web/principles.html#compatible)
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
 
 {% include_cached excol.html type="end" %}
 
@@ -367,43 +365,43 @@ For more information on implementing techniques that remove barriers for Luis, s
 
 {% include_cached excol.html type="middle" %}
 
-**Diversity of web users:**
+**Diverse Abilities and Barriers**
 
--   [Down syndrome (Cognitive disabilities)]({% link _people-use-web/abilities-barriers.md %}#cognitive)
+-   [Down syndrome (Cognitive disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive)
 
-**Diversity in web use:**
+**Tools and Techniques**
 
--   [Easy-to-read text (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Easy-to-read text (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
 -   [Pop-up and animations blockers
-    (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
--   [Progressive disclosure (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
--   [Reading assistants (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
--   [Reduced interface (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
--   [Accelerators (Input)]({% link _people-use-web/tools-techniques.md %}#input)
--   [Spelling and grammar tools (Input)]({% link _people-use-web/tools-techniques.md %}#input)
--   [Consistency and predictability (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
+-   [Progressive disclosure (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
+-   [Reading assistants (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
+-   [Reduced interface (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
+-   [Accelerators (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
+-   [Spelling and grammar tools (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
+-   [Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 -   [Descriptive titles, headings, and labels
-    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 -   [Helpful error and success messages
-    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
--   [Multiple navigation mechanisms (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   [Multiple navigation mechanisms (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 
 **Accessibility principles:**
 
 -   [Content can be presented in different ways
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#adaptable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
 -   [Users have enough time to read and use the content
-    (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#time)
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#navigable)
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
 -   [Content is readable and understandable
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#readable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#predictable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
 -   [Users are helped to avoid and correct mistakes
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#tolerant)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant)
 -   [Content is compatible with current and future user tools
-    (Robust)](https://www.w3.org/WAI/intro/people-use-web/principles.html#compatible)
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
 
 {% include_cached excol.html type="end" %}
 
@@ -428,81 +426,47 @@ For more information on implementing techniques that remove barriers for Kaseem,
 
 {% include_cached excol.html type="middle" %}
 
-**Diversity of web users:**
+**Diverse Abilities and Barriers**
 
--   [Deaf-blindness (Auditory disabilities)]({% link _people-use-web/abilities-barriers.md %}#auditory)
--   [Deaf-blindness (Visual disabilities)]({% link _people-use-web/abilities-barriers.md %}#visual)
+-   [Deaf-blindness (Auditory disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#auditory)
+-   [Deaf-blindness (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual)
 
-**Diversity in web use:**
+**Tools and Techniques**
 
--   [Braille (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Refreshable Braille display (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Screen reader (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Text-to-speech (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Transcripts (Perception)]({% link _people-use-web/tools-techniques.md %}#perception)
--   [Customized fonts and colors (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
--   [Screen magnification (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
--   [Screen magnifier (Presentation)]({% link _people-use-web/tools-techniques.md %}#presentation)
+-   [Braille (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Refreshable Braille display (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Screen reader (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Text-to-speech (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Transcripts (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
+-   [Customized fonts and colors (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
+-   [Screen magnification (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
+-   [Screen magnifier (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
 -   [Descriptive titles, headings, and labels
-    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 -   [Helpful error and success messages
-    (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
--   [Keyboard navigation (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
--   [Skip links (Interaction)]({% link _people-use-web/tools-techniques.md %}#interaction)
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   [Keyboard navigation (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   [Skip links (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
 
 **Accessibility principles:**
 
 -   [Text alternatives for non-text content
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#alternatives)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
 -   [Alternatives for audio and video content
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#captions)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#captions)
 -   [Content can be presented in different ways
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#adaptable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
 -   [Content is easier to see and hear
-    (Perceivable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#distinguishable)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable)
 -   [Users have enough time to read and use the content
-    (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#time)
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time)
 -   [Users can easily navigate, find content, and determine where they
-    are (Operable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#navigable)
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
 -   [Content appears and operates in predictable ways
-    (Understandable)](https://www.w3.org/WAI/intro/people-use-web/principles.html#predictable)
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
 -   [Content is compatible with current and future user tools
-    (Robust)](https://www.w3.org/WAI/intro/people-use-web/principles.html#compatible)
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
 
 {% include_cached excol.html type="end" %}
 
-<style>
-details {
-  padding-left: 2rem;
-}
-summary {
-  display: block;
-  margin-left: -2rem;
-}
-
-summary > * {
-  display: inline;
-}
-
-summary::-webkit-details-marker {
-  display: none;
-}
-
-summary > *:first-child::before {
-  content: '+';
-  margin-right: 0.5rem;
-  margin-bottom: .25rem;
-  display: inline-block;
-  border-radius: 5px;
-  width: 1.5rem;
-  height: 1.5rem;
-  background: #036;
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-}
-
-details[open] > summary > *:first-child::before {
-  content: '–';
-}
-</style>
+{% include excol.html type="all" %}

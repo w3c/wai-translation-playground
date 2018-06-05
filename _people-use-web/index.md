@@ -2,20 +2,12 @@
 title: "How People with Disabilities Use the Web"
 nav_title: Overview
 permalink: /people-use-web/
-redirect_from: /
 order: 0
-date: 2017-05-15
-people:
-  editorslabel: "Editor"
-  editors:
-    - name: Shadi Abou-Zahra
-      url: https://www.w3.org/People/shadi
-  contributors:
-support:
-  - name: WAI-AGE Project
-    url: https://www.w3.org/WAI/WAI-AGE/
-  - name: WAI-AGE Task Force
-    url: https://www.w3.org/WAI/EO/2008/wai-age-tf
+footer: >
+  <p><strong>Date:</strong> Updated 15 May 2017.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. Previous editor: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Acknowledgments</a>.</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
+
 ---
 
 ## Introduction
@@ -35,27 +27,24 @@ tools.
 
 ## This resource includes the following pages
 
--   [**Stories of Web Users**]({{ site.github.url }}{% link _people-use-web/user-stories.md %}) – stories of selected
+-   [**Stories of Web Users**]({{ "/people-use-web/user-stories/" | relative_url }}) – stories of selected
     scenarios of people with disabilities using the Web, to highlight
     the effect of barriers and the broader benefits of accessible
     websites and web tools.
--   [**Diversity of Web Users**]({{ site.github.url }}{% link _people-use-web/abilities-barriers.md %}) – explores the
+-   [**Diverse Abilities and Barriers**]({{ "/people-use-web/abilities-barriers/" | relative_url }}) – explores the
     wide range of diversity of people and abilities, and highlights some
     of the types of barriers that people commonly encounter due to
     inaccessible design.
--   [**Diversity in Web Use**]({{ site.github.url }}{% link _people-use-web/tools-techniques.md %}) – introduces some of
+-   [**Tools and Techniques**]({{ "/people-use-web/tools-techniques/" | relative_url }}) – introduces some of
     the techniques and tools that people with disabilities use to
     interact with the Web, such as browser settings, text-to-speech,
     voice recognition, and many more.
--   [**Accessibility Principles**](https://www.w3.org/WAI/intro/people-use-web/principles.html) – introduces
-    some of the web accessibility requirements and provides references
-    to the international accessibility standards from the W3C Web
-    Accessibility Initiative (WAI).
 
 ## Related resources
 
+-   [**Accessibility Principles**]({{ "/fundamentals/accessibility-principles/" | relative_url }}) - introduces some of the web accessibility requirements and provides references to the international accessibility standards from the W3C Web Accessibility Initiative (WAI).
 -   [**Web Accessibility
-    Perspectives**](https://www.w3.org/WAI/perspectives/) – short videos
+    Perspectives**]({{ "/perspective-videos/" | relative_url }}) – short videos
     highlighting accessibility features that are essential to people
     with disabilities and useful for all.
 -   [**Better Web Browsing**](http://www.w3.org/WAI/users/browsing) -

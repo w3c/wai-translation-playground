@@ -1,27 +1,24 @@
 ---
 title: "Diverse Abilities and Barriers"
 order: 2
-date: 2017-05-15
-people:
-  editorslabel: "Editor"
-  editors:
-    - name: Shadi Abou-Zahra
-      url: https://www.w3.org/People/shadi
-  contributors:
-support:
-  - name: WAI-AGE Project
-    url: https://www.w3.org/WAI/WAI-AGE/
-  - name: WAI-AGE Task Force
-    url: https://www.w3.org/WAI/EO/2008/wai-age-tf
+footer: >
+  <p><strong>Date:</strong> Updated 15 May 2017.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. Previous editor: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Acknowledgments</a>.</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
 ---
 
-This page explores the wide range of diversity of people and abilities
-and highlights some of the types of web accessibility barriers that
-people commonly encounter due to inaccessible designs of websites and
-web tools.
+{::nomarkdown}
+{% include box.html type="start" h="2" title="Summary" class="full" %}
+{:/}
 
-**Note:** This page is illustrative and is not intended to be an
-exhaustive listing of all disabilities and barriers.
+This page explores the wide diversity of people and abilities. It highlights some web accessibility barriers that people commonly experience because of inaccessible websites and web tools.
+
+**Note:** This page is illustrative and is not a complete list of all disabilities and barriers.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 
 {::options toc_levels="2" /}
 
@@ -36,6 +33,8 @@ exhaustive listing of all disabilities and barriers.
 {% include_cached toc.html type="end" %}
 {:/}
 
+{% include excol.html type="all" %}
+
 Diversity of abilities {#diversity}
 ------------------------------------
 
@@ -46,8 +45,11 @@ accident, or they may develop impairments with age. Some may not
 consider themselves to have disabilities even if they do experience such
 functional limitations.
 
+{% include excol.html type="start" id="" %}
+
 ### More about diversity of abilities {#more-about-diversity-of-abilities}
 
+{% include excol.html type="middle" %}
 
 Each individual is unique. People have diverse abilities, skills, tools,
 preferences, and expectations that can impact how they use the Web. For
@@ -60,7 +62,7 @@ instance, consider the following aspects:
     level of computer skills, or in the use of the Web in general.
 -   **Multiple disabilities:**{:#combined} Some people have
     combinations of different kinds of disabilities, which may limit
-    their approaches for interacting with the Web. For instance, someone
+    their approaches for interacting with the Web. For example, someone
     who is deaf and has low vision might benefit from captions for
     audio, but only if these captions have adjustable size and color.
 -   **Health conditions:**{:#health} Some people have health conditions
@@ -70,7 +72,7 @@ instance, consider the following aspects:
     the duration or extent of their use of the Web.
 -   **Changing abilities:**{:#changing} Some people may be experiencing
     progressive or recurring functional limitations that impact their
-    use of the Web differently at different times. For instance, some
+    use of the Web differently at different times. For example, some
     may need particular accessibility features on one day, and others or
     none on another day, depending on their condition.
 -   **Temporary impairments:**{:#temporary} Some people may be
@@ -80,7 +82,7 @@ instance, consider the following aspects:
     features, and may be unaware of their needs.
 -   **Situational limitations:**{:#situational} Some people may be
     experiencing constraints due to their surrounding or due to other
-    situational aspects. For instance, they may be in a loud environment
+    situational aspects. For example, they may be in a loud environment
     and unable to hear audio, in bright sunlight and unable to see a
     screen, or they may not be able to afford some technologies.
 
@@ -90,6 +92,7 @@ is, therefore, important to consider the broad diversity of functional
 needs rather than to categorize people according to medical
 classifications.
 
+{% include excol.html type="end" %}
 
 Auditory {#auditory}
 ---------------------
@@ -101,12 +104,15 @@ can hear sounds but sometimes not sufficiently to understand all speech,
 especially when there is background noise. This can include people using
 hearing aids.
 
+{% include excol.html type="start" id="" %}
+
 ### More about auditory disabilities {#more-about-auditory-disabilities}
 
+{% include excol.html type="middle" %}
 
 While multimedia on the Web provides many opportunities for people with
 auditory disabilities, it also poses challenges when content is not
-designed to be accessible. For instance, while video content can be used
+designed to be accessible. For example, while video content can be used
 to communicate information visually, audio content needs to have
 alternatives, such as transcripts and captions, so that it is accessible
 for people with auditory disabilities.
@@ -131,9 +137,11 @@ make web content more understandable to many people. However, it is
 important to remember that not all people with auditory disabilities
 know sign language.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Examples of auditory disabilities {#examples-of-auditory-disabilities}
 
+{% include excol.html type="middle" %}
 
 -   **Hard of hearing**{:#hardofhearing} – mild or moderate hearing
     impairments in one or both ears.
@@ -142,9 +150,11 @@ know sign language.
 -   **Deaf-blindness**{:#deafblindness} – substantial, uncorrectable
     hearing and visual impairments.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Examples of barriers for people with auditory disabilities {#examples-of-barriers-for-people-with-auditory-disabilities}
 
+{% include excol.html type="middle" %}
 
 -   Audio content, such as videos with voices and sounds, without
     captions or transcripts.
@@ -157,14 +167,16 @@ know sign language.
 -   Lack of sign language to supplement important information and text
     that is difficult to read.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Stories related to auditory disabilities {#stories-related-to-auditory-disabilities}
 
+{% include excol.html type="middle" %}
 
--   [Ms. Martinez, Online student who is hard of
-    hearing](stories#onlinestudent)
--   [Ms. Kaseem, Teenager with deaf-blindness](stories#teenager)
+-   [Martine, online student who is hard of hearing]({{ "/people-use-web/user-stories/" | relative_url }}#onlinestudent)
+-   [Kaseem, teenager who is deaf and blind]({{ "/people-use-web/user-stories/" | relative_url }}#teenager)
 
+{% include excol.html type="end" %}
 
 Cognitive, learning, and neurological {#cognitive}
 ---------------------------------------------------
@@ -177,13 +189,16 @@ move, see, speak, and understand information. Cognitive, learning, and
 neurological disabilities do not necessarily affect the intelligence of
 a person.
 
+{% include excol.html type="start" id="" %}
+
 ### More about cognitive, learning, and neurological disabilities {#more-about-cognitive-learning-and-neurological-disabilities}
 
+{% include excol.html type="middle" %}
 
 Computer technologies and the Web provide many opportunities for people
 with cognitive, learning, and neurological disabilities to interact with
 content and to process information in ways that are more usable to them.
-For instance, people can navigate web content using different
+For example, people can navigate web content using different
 strategies, access information in text, audio, or other formats, and
 change the presentation of the content according to their individual
 needs or preferences.
@@ -204,7 +219,7 @@ neurological disabilities often rely on:
 
 People with cognitive, learning, and neurological disabilities use
 different types of web browsing methods, depending on their particular
-needs. For instance, some people use text-to-speech software to hear the
+needs. For example, some people use text-to-speech software to hear the
 information while reading it visually or use captions to read the
 information while hearing it. Some people use tools that resize text and
 spacing or customize colors to assist reading. Others use grammar and
@@ -213,9 +228,11 @@ work, developers need to consider web accessibility requirements which
 are often shared by people with hearing, physical, speech, and visual
 disabilities.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Examples of cognitive, learning, and neurological disabilities {#examples-of-cognitive-learning-and-neurological-disabilities}
 
+{% include excol.html type="middle" %}
 
 -   **Attention deficit hyperactivity disorder (ADHD)**{:#adhd}
     (formerly "attention deficit disorder (ADD)") – involves difficulty
@@ -263,9 +280,11 @@ disabilities.
     epilepsy and migraines, which may be in reaction to visual
     flickering or audio signals at certain frequencies or patterns.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Examples of barriers for people with cognitive, learning, and neurological disabilities {#examples-of-barriers-for-people-with-cognitive-learning-and-neurological-disabilities}
 
+{% include excol.html type="middle" %}
 
 -   Complex navigation mechanisms and page layouts that are difficult to
     understand and use.
@@ -280,17 +299,17 @@ disabilities.
 -   Visual page designs that cannot be adapted using web browser
     controls or custom style sheets.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Stories related to cognitive, learning, and neurological disabilities {#stories-related-to-cognitive-learning-and-neurological-disabilities}
 
+{% include excol.html type="middle" %}
 
--   [Ms. Olsen, Classroom student with attention deficit hyperactivity
-    disorder (ADHD) and dyslexia](stories#classroomstudent)
--   [Mr. Yunus, Retiree with low vision, hand tremor, and mild
-    short-term memory loss](stories#retiree)
--   [Mr. Sands, Supermarket assistant with Down
-    syndrome](stories#supermarketassistant)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
+-   [Luis, supermarket assistant with Down syndrome]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
 
+{% include excol.html type="end" %}
 
 Physical {#physical}
 ---------------------
@@ -301,8 +320,11 @@ movements including tremors, lack of coordination, or paralysis),
 limitations of sensation, joint disorders (such as arthritis), pain that
 impedes movement, and missing limbs.
 
+{% include excol.html type="start" id="" %}
+
 ### More about physical disabilities {#more-about-physical-disabilities}
 
+{% include excol.html type="middle" %}
 
 To use the Web, people with physical disabilities often use specialized
 hardware and software such as:
@@ -334,9 +356,11 @@ current focus, and mechanisms to skip over blocks, such as over page
 headers or navigation bars. People with cognitive and visual
 disabilities share many of these requirements.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Examples of physical disabilities {#examples-of-physical-disabilities}
 
+{% include excol.html type="middle" %}
 
 -   **Amputation**{:#limbs} – includes missing fingers, limbs, or other
     parts of the human body.
@@ -368,9 +392,11 @@ disabilities share many of these requirements.
     partial or total paralysis (includes motor control and sensation) to
     all four body limbs (legs and arms) and the torso.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Examples of barriers for people with physical disabilities {#examples-of-barriers-for-people-with-physical-disabilities}
 
+{% include excol.html type="middle" %}
 
 -   Websites, web browsers, and authoring tools that do not provide full
     keyboard support.
@@ -383,26 +409,30 @@ disabilities share many of these requirements.
 -   Inconsistent, unpredictable, and overly complicated navigation
     mechanisms and page functions.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Stories related to physical disabilities {#stories-related-to-physical-disabilities}
 
+{% include excol.html type="middle" %}
 
--   [Mr. Jones, Reporter with repetitive stress
-    injury](stories#reporter)
--   [Mr. Yunus, Retiree with low vision, hand tremor, and mild
-    short-term memory loss](stories#retiree)
+-   [Alex, reporter with repetitive stress injury]({{ "/people-use-web/user-stories/" | relative_url }}#reporter)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
 
+{% include excol.html type="end" %}
 
 Speech {#speech}
 -----------------
 
 Speech disabilities include difficulty producing speech that is
-recognizable by others or by voice recognition software. For instance,
+recognizable by others or by voice recognition software. For example,
 the loudness or clarity of someone's voice might be difficult to
 understand.
 
+{% include excol.html type="start" id="" %}
+
 ### More about speech disabilities {#more-about-speech-disabilities}
 
+{% include excol.html type="middle" %}
 
 People with speech disabilities encounter barriers with voice-based
 services, such as automated web-based hotlines and web applications that
@@ -414,9 +444,11 @@ provide telephone numbers as the only means of communicating with an
 organization pose barriers for people with speech disabilities.
 Alternative means of communication include e-mail and feedback forms.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Examples of speech disabilities {#examples-of-speech-disabilities}
 
+{% include excol.html type="middle" %}
 
 -   **Apraxia of speech (AOS)**{:#apraxia} – includes inconsistent
     articulation and production of speech sounds, and errors producing
@@ -441,15 +473,18 @@ Alternative means of communication include e-mail and feedback forms.
     inability to speak due to various reasons such as anxiety, brain
     injuries, or inability to hear and learn speech.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Examples of barriers for people with speech disabilities {#examples-of-barriers-for-people-with-speech-disabilities}
 
+{% include excol.html type="middle" %}
 
 -   Web-based services, including web applications, that rely on
     interaction using voice only.
 -   Websites that offer phone numbers as the only way to communicate
     with the organizations.
 
+{% include excol.html type="end" %}
 
 Visual {#visual}
 -----------------
@@ -461,8 +496,11 @@ to certain colors ("color blindness"), or increased sensitivity to
 bright colors. These variations in perception of colors and brightness
 can be independent of the visual acuity.
 
+{% include excol.html type="start" id="" %}
+
 ### More about visual disabilities {#more-about-visual-disabilities}
 
+{% include excol.html type="middle" %}
 
 People with visual disabilities typically rely on changing the
 presentation of web content into forms that are more usable for their
@@ -478,7 +516,7 @@ For these web browsing methods to work, developers need to ensure that
 the presentation of web content is independent of its underlying
 structure and that the structure is correctly coded so that it can be
 processed and presented in different ways by web browsers and assistive
-technologies. For instance, some people do not see the content and rely
+technologies. For example, some people do not see the content and rely
 on lists, headings, tables, and other page structures to be properly
 coded so that they can be identified by web browsers and assistive
 technologies.
@@ -491,9 +529,11 @@ they cannot see the mouse pointer. An accessible design supports
 different presentations of the web content and different ways of
 interaction.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Examples of visual disabilities {#examples-of-visual-disabilities}
 
+{% include excol.html type="middle" %}
 
 -   **Color blindness**{:#colorblindness} – includes difficulty
     distinguishing between colors such as between red and green, or
@@ -509,9 +549,11 @@ interaction.
 -   **Deaf-blindness**{:#deafblind} – substantial, uncorrectable visual
     and hearing impairments.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Examples of barriers for people with visual disabilities {#examples-of-barriers-for-people-with-visual-disabilities}
 
+{% include excol.html type="middle" %}
 
 -   Images, controls, and other structural elements that do not have
     equivalent text alternatives.
@@ -530,15 +572,17 @@ interaction.
 -   Websites, web browsers, and authoring tools that do not provide full
     keyboard support.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Stories related to visual disabilities {#stories-related-to-visual-disabilities}
 
+{% include excol.html type="middle" %}
 
--   [Mr. Lee, Online shopper with color blindness](stories#shopper)
--   [Ms. Laitinen, Accountant with blindness](stories#accountant)
--   [Mr. Yunus, Retiree with low vision, hand tremor, and mild
-    short-term memory loss](stories#retiree)
--   [Ms. Kaseem, Teenager with deaf-blindness](stories#teenager)
+-   [Lee, online shopper with color blindness]({{ "/people-use-web/user-stories/" | relative_url }}#shopper)
+-   [Ilya, senior staff member who is blind]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
+-   [Kaseem, teenager who is deaf and blind]({{ "/people-use-web/user-stories/" | relative_url }}#teenager)
 
+{% include excol.html type="end" %}
 
-
+{% include excol.html type="all" %}

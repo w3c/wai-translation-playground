@@ -1,26 +1,24 @@
 ---
 title: "Tools and Techniques"
 order: 3
-date: 2017-05-15
-people:
-  editorslabel: "Editor"
-  editors:
-    - name: Shadi Abou-Zahra
-      url: https://www.w3.org/People/shadi
-  contributors:
-support:
-  - name: WAI-AGE Project
-    url: https://www.w3.org/WAI/WAI-AGE/
-  - name: WAI-AGE Task Force
-    url: https://www.w3.org/WAI/EO/2008/wai-age-tf
+footer: >
+  <p><strong>Date:</strong> Updated 15 May 2017.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. Previous editor: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Acknowledgments</a>.</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
 ---
 
-This page introduces some of the techniques and tools that people with
-disabilities use to interact with the Web, such as web browser settings,
-text-to-speech, voice recognition, and many more.
+{::nomarkdown}
+{% include box.html type="start" h="2" title="Summary" class="full" %}
+{:/}
 
-**Note:** This page is illustrative and is not intended to be an
-exhaustive listing of all web browsing methods.
+This page introduces some of the techniques and tools that people with disabilities use to interact with the web &mdash; web browser settings, text-to-speech, voice recognition, and many more.
+
+**Note:** This page is illustrative and is not a complete list of all the ways that people interact with the web.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 
 {::options toc_levels="2" /}
 
@@ -35,6 +33,7 @@ exhaustive listing of all web browsing methods.
 {% include_cached toc.html type="end" %}
 {:/}
 
+{% include excol.html type="all" %}
 
 Tools and preferences {#tools}
 -------------------------------
@@ -45,7 +44,11 @@ configure standard software and hardware according to their needs, and
 sometimes people use specialized software and hardware that help them
 perform certain tasks.
 
+{% include excol.html type="start" id="" %}
+
 ### More about tools and preferences {#more-about-tools-and-preferences}
+
+{% include excol.html type="middle" %}
 
 Some common approaches for interacting with the Web include:
 
@@ -71,28 +74,33 @@ accessibility features and solutions.
 
 Sometimes hardware and software with specific accessibility features,
 including web browsers, media players, or assistive technologies, may
-not be available to an individual. For instance, tools may not be
+not be available to an individual. For example, tools may not be
 affordable, not installed or not compatible with the computer, not
 available in some languages, or not available for other reasons. In
 other cases, people are unaware of accessibility solutions or how to
 configure and use them.
 
+{% include excol.html type="end" %}
 
 Perception - hearing, feeling, and seeing {#perception}
 --------------------------------------------------------
 
 People perceive content through different senses depending on their
-needs and preferences. For instance, some people are not seeing the
+needs and preferences. For example, some people are not seeing the
 screen or hearing the audio. Examples of perception include:
 
 -   **Auditory** - such as speech, music, and sound that can be *heard*.
 -   **Tactile** - such as dots, bars, and vibration that can be *felt*.
 -   **Visual** - such as images, text, and video that can be *seen*.
 
+{% include excol.html type="start" id="" %}
+
 ### More about perception {#more-about-perception}
 
+{% include excol.html type="middle" %}
+
 Some people need to convert content from one form to another to perceive
-it. For instance, someone who is deaf-blind requires audio and visual
+it. For example, someone who is deaf-blind requires audio and visual
 content in a tactile form (such as [Braille](#braille){:.termref}). Other
 people need to perceive content through multiple senses, such as someone
 with dyslexia who may need to hear and see the text to understand it
@@ -106,7 +114,7 @@ understandability, ease-of-use, and satisfaction with websites and
 applications for everyone.
 
 In some cases, content can be converted into different forms using
-software or hardware. For instance, a text-to-speech software can
+software or hardware. For example, a text-to-speech software can
 convert text into speech. In other cases, content authors need to
 provide alternative forms of the content. For example, at least some
 level of human intervention is necessary to create textual descriptions
@@ -114,7 +122,11 @@ for images and captions for audio content. Sometimes software tools,
 such as voice and picture recognition, can assist authors in providing
 such alternatives but the conversion is usually not fully automatable.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
+
 ### Examples of accessibility features {#examples-of-accessibility-features}
+
+{% include excol.html type="middle" %}
 
 -   **Audio descriptions**{:#audio} – (also referred to as "video
     descriptions" and "described video") narrations that describe
@@ -141,7 +153,11 @@ such alternatives but the conversion is usually not fully automatable.
     correct sequence of verbatim recording of any speech, and
     descriptions of important auditory or visual information.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
+
 ### Examples of assistive technologies and adaptive strategies {#examples-of-assistive-technologies-and-adaptive-strategies}
+
+{% include excol.html type="middle" %}
 
 -   **Refreshable Braille display**{:#braille_display} – a mechanical
     terminal that displays a line of [Braille](#braille){:.termref}
@@ -161,14 +177,18 @@ such alternatives but the conversion is usually not fully automatable.
     not developed as assistive tools but as alternative web browsers for
     mobile devices or similar.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
+
 ### Stories related to perception {#stories-related-to-perception}
 
--   [Ms. Martinez, Online student who is hard of
-    hearing](stories#onlinestudent)
--   [Ms. Laitinen, Accountant with blindness](stories#accountant)
--   [Ms. Olsen, Classroom student with attention deficit hyperactivity
-    disorder (ADHD) and dyslexia](stories#classroomstudent)
--   [Ms. Kaseem, Teenager with deaf-blindness](stories#teenager)
+{% include excol.html type="middle" %}
+
+-   [Martine, online student who is hard of hearing]({{ "/people-use-web/user-stories/" | relative_url }}#onlinestudent)
+-   [Ilya, senior staff member who is blind]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
+-   [Kaseem, teenager who is deaf and blind]({{ "/people-use-web/user-stories/" | relative_url }}#teenager)
+
+{% include excol.html type="end" %}
 
 Presentation - distinguishing and understanding {#presentation}
 ----------------------------------------------------------------
@@ -183,7 +203,11 @@ distinguish and understand. These adjustments include:
 -   Providing alternative presentations of the content, such as
     sign-language.
 
+{% include excol.html type="start" id="" %}
+
 ### More about presentation {#more-about-presentation}
+
+{% include excol.html type="middle" %}
 
 Some people need larger text and image sizes or higher contrast between
 text and background colors to see the content better, and some people
@@ -197,7 +221,7 @@ preferences.
 
 Making text more readable is of particular importance. This involves
 changing its visual appearance, using additional text-to-speech, and
-adapting the content. For instance, changing the font type, colors,
+adapting the content. For example, changing the font type, colors,
 spacing, and line width makes texts more readable for many people.
 Sometimes text-to-speech is used to assist reading further. Adapting the
 content involves rearranging sections of web pages, adding functionality
@@ -214,7 +238,11 @@ possible, such as graphical and tabular representations of data for
 people with different learning styles, or [sign
 language](#sign){:.termref} videos for sign language users.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
+
 ### Examples of accessibility features {#examples-of-accessibility-features-1}
+
+{% include excol.html type="middle" %}
 
 -   **Customized fonts and colors**{:#style} – changing the font types,
     sizes, colors, and spacing to make text easier to read.
@@ -233,7 +261,7 @@ language](#sign){:.termref} videos for sign language users.
     with information.
 -   **Reduced interface**{:#reduced} – representation of the content
     that only shows most relevant information or more frequently used
-    functions; for instance, by hiding other parts of the content that
+    functions; for example, by hiding other parts of the content that
     can distract users.
 -   **Screen magnification**{:#display} – changing the settings of the
     web browser, operating system, or screen to enlarge or reduce text
@@ -252,7 +280,11 @@ language](#sign){:.termref} videos for sign language users.
     used instead of text by some people with impaired communication,
     including people with difficulties to read or write.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
+
 ### Examples of assistive technologies and adaptive strategies {#examples-of-assistive-technologies-and-adaptive-strategies-1}
+
+{% include excol.html type="middle" %}
 
 -   **Pop-up and animations blockers**{:#blockers} – web browser
     plug-ins or other software tools that stop automatic pop-up windows
@@ -278,18 +310,20 @@ language](#sign){:.termref} videos for sign language users.
     audio content being played, including options to turn off the sound
     altogether, that are separate from the overall system settings.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
+
 ### Stories related to presentation {#stories-related-to-presentation}
 
--   [Mr. Lee, Online shopper with color blindness](stories#shopper)
--   [Ms. Martinez, Online student who is hard of
-    hearing](stories#onlinestudent)
--   [Ms. Olsen, Classroom student with attention deficit hyperactivity
-    disorder (ADHD) and dyslexia](stories#classroomstudent)
--   [Mr. Yunus, Retiree with low vision, hand tremor, and mild
-    short-term memory loss](stories#retiree)
--   [Mr. Sands, Supermarket assistant with Down
-    syndrome](stories#supermarketassistant)
--   [Ms. Kaseem, Teenager with deaf-blindness](stories#teenager)
+{% include excol.html type="middle" %}
+
+-   [Lee, online shopper with color blindness]({{ "/people-use-web/user-stories/" | relative_url }}#shopper)
+-   [Martine, online student who is hard of hearing]({{ "/people-use-web/user-stories/" | relative_url }}#onlinestudent)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
+-   [Luis, supermarket assistant with Down syndrome]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
+-   [Kaseem, teenager who is deaf and blind]({{ "/people-use-web/user-stories/" | relative_url }}#teenager)
+
+{% include excol.html type="end" %}
 
 Input - typing, writing, and clicking {#input}
 -----------------------------------------------
@@ -307,17 +341,21 @@ using:
 -   Mouse and keyboard with software that compensates for hand tremor;
 -   Voice recognition (speech input) and other hands-free interaction.
 
+{% include excol.html type="start" id="" %}
+
 ### More about input {#more-about-input}
 
+{% include excol.html type="middle" %}
+
 Some people use software and customized settings to enhance the
-efficiency of typing, writing, and clicking. For instance, some people
+efficiency of typing, writing, and clicking. For example, some people
 assign personalized shortcut keys to functions they frequently use. Some
 people use word prediction software to help complete words and sentences
 with minimal typing, grammar and spelling tools to help correct text,
 and tools to help click, select text, and scroll with minimal movement.
 
 Web content needs to be designed to support these different types of
-approaches. For instance, forms, links, and other functionality need to
+approaches. For example, forms, links, and other functionality need to
 be usable by keyboard. In particular, web applications ("client-side
 scripting"), embedded media players, and other programmatic objects need
 to provide full keyboard support that does not trap the keyboard focus
@@ -331,10 +369,14 @@ unintentionally activate buttons and links. Accessible web content also
 provides enough time to complete tasks, clear and helpful error messages
 and options for correcting input.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
+
 ### Examples of assistive technologies and adaptive strategies {#examples-of-assistive-technologies-and-adaptive-strategies-2}
 
+{% include excol.html type="middle" %}
+
 -   **Accelerators**{:#accelerators} – software and functionality that
-    help reduce the effort needed to type or click. For instance, by
+    help reduce the effort needed to type or click. For example, by
     providing options to create shortcuts for commands or sequences of
     commands, by highlighting selection choices such as menu items,
     links, or options, and by helping to steer the mouse.
@@ -377,18 +419,18 @@ and options for correcting input.
     selections of matching words, phrases, or sentences based on the
     current input (and sometimes context) to save typing.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
 
 ### Stories related to input {#stories-related-to-input}
 
--   [Mr. Jones, Reporter with repetitive stress
-    injury](stories#reporter)
--   [Ms. Olsen, Classroom student with attention deficit hyperactivity
-    disorder (ADHD) and dyslexia](stories#classroomstudent)
--   [Mr. Yunus, Retiree with low vision, hand tremor, and mild
-    short-term memory loss](stories#retiree)
--   [Mr. Sands, Supermarket assistant with Down
-    syndrome](stories#supermarketassistant)
+{% include excol.html type="middle" %}
 
+-   [Alex, reporter with repetitive stress injury]({{ "/people-use-web/user-stories/" | relative_url }}#reporter)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
+-   [Luis, supermarket assistant with Down syndrome]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
+
+{% include excol.html type="end" %}
 
 Interaction - navigating and finding {#interaction}
 ----------------------------------------------------
@@ -403,7 +445,11 @@ While these are typically usability aspects that affect people with and
 without disabilities, some situations affect people with disabilities to
 a greater extent.
 
+{% include excol.html type="start" id="" %}
+
 ### More about interaction {#more-about-interaction}
+
+{% include excol.html type="middle" %}
 
 Examples of such situations include:
 
@@ -424,13 +470,17 @@ Examples of such situations include:
     provide alternative mechanisms for navigation.
 
 Many functions to support different styles of navigation are built
-directly into web browsers and assistive technologies. For instance,
+directly into web browsers and assistive technologies. For example,
 most commonly available browsers provide bookmark functionality, and
 screen readers provide functions to list headings, links, and other
 structures on a web page. However, the design of the content is also an
 essential factor to support different styles of navigation.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
+
 ### Examples of accessibility features {#examples-of-accessibility-features-2}
+
+{% include excol.html type="middle" %}
 
 -   **Consistency and predictability**{:#consistency} – labeling of
     functions such as links, buttons, and controls should be consistent,
@@ -444,7 +494,7 @@ essential factor to support different styles of navigation.
     complete their tasks and avoid disorientation, distraction,
     confusion, or discomfort.
 -   **Multiple navigation mechanisms**{:#navigating} – websites need to
-    provide multiple ways to locate web pages, for instance by providing
+    provide multiple ways to locate web pages, for example by providing
     sitemaps and search functionality in addition to hierarchical
     navigation menus.
 -   **Skip links**{:#skip} – mechanisms to allow keyboard users to skip
@@ -456,7 +506,11 @@ essential factor to support different styles of navigation.
     unique headings, and placing relevant information in prominent areas
     of a web page.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
+
 ### Examples of assistive technologies and adaptive strategies {#examples-of-assistive-technologies-and-adaptive-strategies-3}
+
+{% include excol.html type="middle" %}
 
 -   **Bookmarks and history**{:#bookmarks} – using web browser
     functions to help remember pages, find previously visited pages, or
@@ -475,20 +529,24 @@ essential factor to support different styles of navigation.
     that is being currently viewed.
 -   **Pictorial links**{:#pictorial} – some web browsers, plug-ins, and
     websites show small images of the link targets (sometimes called
-    "screen shots") rather than the addresses or names; for instance in
+    "screen shots") rather than the addresses or names; for example in
     combination with [bookmarks and history](#bookmarks){:.termref}
     listings, back and forward buttons in web browsers, or links on web
     pages.
 
+{% include excol.html type="end" %}{% include excol.html type="start" id="" %}
+
 ### Stories related to interaction {#stories-related-to-interaction}
 
--   [Mr. Jones, Reporter with repetitive stress
-    injury](stories#reporter)
--   [Ms. Laitinen, Accountant with blindness](stories#accountant)
--   [Ms. Olsen, Classroom student with attention deficit hyperactivity
-    disorder (ADHD) and dyslexia](stories#classroomstudent)
--   [Mr. Yunus, Retiree with low vision, hand tremor, and mild
-    short-term memory loss](stories#retiree)
--   [Mr. Sands, Supermarket assistant with Down
-    syndrome](stories#supermarketassistant)
--   [Ms. Kaseem, Teenager with deaf-blindness](stories#teenager)
+{% include excol.html type="middle" %}
+
+-   [Alex, reporter with repetitive stress injury]({{ "/people-use-web/user-stories/" | relative_url }}#reporter)
+-   [Ilya, senior staff member who is blind]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
+-   [Preety, middle school student with Attention Deficit Hyperactivity Disorder and Dyslexia]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
+-   [Yun, retiree with low vision, hand tremor, and mild short-term memory loss]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
+-   [Luis, supermarket assistant with Down syndrome]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
+-   [Kaseem, teenager who is deaf and blind]({{ "/people-use-web/user-stories/" | relative_url }}#teenager)
+
+{% include excol.html type="end" %}
+
+{% include excol.html type="all" %}
