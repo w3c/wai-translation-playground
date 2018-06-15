@@ -1,4 +1,3 @@
-<div lang="fr"><!-- START FRENCH -->
 ---
 title: "Quelques utilisateurs du Web"
 order: 1
@@ -11,6 +10,8 @@ footer: >
 
 ---
 
+
+<div lang="fr"><!-- START FRENCH -->
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Résumé" class="full" %}
 {:/}
