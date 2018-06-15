@@ -10,7 +10,7 @@ footer: >
 
 ---
 
-<div lang="fr"><!-- START FRENCH -->
+<div lang="fr" data-comment="END FRENCH">
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Résumé" class="full" %}
@@ -475,4 +475,4 @@ For more information on implementing techniques that remove barriers for Kaseem,
 
 {% include excol.html type="all" %}
 
-</div><!-- END FRENCH -->
+</div data-comment="END FRENCH">
