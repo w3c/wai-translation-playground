@@ -1,3 +1,4 @@
+<div lang="fr"><!-- START FRENCH -->
 ---
 title: "Quelques utilisateurs du Web"
 order: 1
@@ -55,20 +56,20 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 
 **Capacités diverses et points de blocage**
 
--   <span lang="en">[Color blindness (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual)</span> (en anglais)
+-   <span lang="en">[Color blindness (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual){: hreflang="en"}</span> (en anglais)
 
 **Outils et techniques**
 
--   <span lang="en">[Customized fonts and colors (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)</span> (en anglais)
+-   <span lang="en">[Customized fonts and colors (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
 
 **Principes d’accessibilité :**
 
 -   <span lang="en">[Content can be presented in different ways
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)</span> (en anglais)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable{: hreflang="en"})</span> (en anglais)
 -   <span lang="en">[Content is easier to see and hear
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable)</span> (en anglais)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable{: hreflang="en"})</span> (en anglais)
 -   <span lang="en">[Content is compatible with current and future user tools
-    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)</span> (en anglais)
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible{: hreflang="en"})</span> (en anglais)
 
 {% include_cached excol.html type="end" %}
 
@@ -472,3 +473,5 @@ For more information on implementing techniques that remove barriers for Kaseem,
 {% include_cached excol.html type="end" %}
 
 {% include excol.html type="all" %}
+
+</div><!-- END FRENCH -->
