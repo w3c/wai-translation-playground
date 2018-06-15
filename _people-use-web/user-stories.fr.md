@@ -53,7 +53,7 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 
 {% include_cached excol.html type="middle" %}
 
-**Capacités diverses et points de blocage**
+**Capacités diverses et points bloquants**
 
 -   <span lang="en">[Color blindness (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual){: hreflang="en"}</span> (en anglais)
 
@@ -61,7 +61,7 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 
 -   <span lang="en">[Customized fonts and colors (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
 
-**Principes d’accessibilité :**
+**Principes d’accessibilité**
 
 -   <span lang="en">[Content can be presented in different ways
     (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable{: hreflang="en"})</span> (en anglais)
@@ -72,60 +72,60 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 
 {% include_cached excol.html type="end" %}
 
-Alex, reporter with repetitive stress injury {#reporter}
+Alex, journaliste avec un trouble musculosquelettique {#reporter}
 --------------------------------------------------------------
 
-Alex has worked as a reporter for more than 20 years and has developed a repetitive strain injury that makes it painful to use a mouse and to type for extended periods of time.
+Alex est journaliste depuis plus de vingt ans et a développé un trouble musculosquelettique qui lui rend douloureux l’usage d’une souris ou la frappe au clavier sur une longue période.
 
-Though it took considerable research, time, and commitment to learn, he is able to work with less pain using the following modifications to his work environment:
+Après un effort considérable de recherche qui lui a demandé beaucoup de temps et de volonté d’apprendre, il peut maintenant limiter la douleur en appliquant les modifications suivantes à son environnement de travail :
 
-* use of an ergonomic keyboard
-* use of keyboard commands without a mouse
-* voice recognition software on his computer and mobile phone
-* assistive touch on his mobile phone
+* utilisation d’un clavier ergonomique
+* utilisation de commandes au clavier sans passer par la souris
+* logiciel de reconnaissance vocale sur son ordinateur et son téléphone mobile
+* utilisation de l’assistance tactile de son téléphone mobile
 
-Alex encounters problems when websites and other online content cannot be navigated by keyboard commands alone. He frequently encounters web forms that do not have keyboard equivalents. Sometimes it is also difficult to skip content and navigate to sections on a webpage without using many keyboard commands, which is very tiring and limits the time he can spend working comfortably. He also recently began to explore the use of assistive touch on his mobile phone which also helps him use fewer gestures and work for longer periods of time. As a temporary fix, Alex’s employer has built several custom work arounds that provide keyboard support for his use of the company’s internal Content Management System with the intention to implement improved keyboard support to benefit all users on the next release of the software.
+Alex rencontre des problèmes quand des sites web et d’autres contenus en ligne ne peuvent pas être utilisés uniquement au clavier. Il est fréquemment confronté à des formulaires web qui n’ont pas d’équivalent au clavier. Parfois il lui est aussi difficile de sauter des contenus et d’atteindre des sections d’une page sans avoir recours à plusieurs commandes au clavier, ce qui est très fatigant et qui réduit la durée pendant laquelle il peut travailler confortablement. Dernièrement il a commencé à explorer l’assistance tactile sur son téléphone, qui l’aide là aussi à faire moins de gestes et à augmenter son temps de travail. L’employeur d’Alex a, à titre temporaire, créé plusieurs raccourcis sur mesure pour lui permettre d’utiliser au clavier le système de publication interne de l’entreprise ; il prévoit de fournir un support complet du clavier pour tous les utilisateurs dans la prochaine version du logiciel.
 
-For more information on implementing techniques that remove barriers for Alex, see the following resources:
+Pour plus d’informations sur les techniques qui permettent d’enlever des points bloquants pour Alex, référez-vous aux ressources suivantes :
 
 {% include_cached excol.html type="start" id="alex-sections" %}
 
-### Sections related to Alex
+### Sections liées à Alex
 
 {% include_cached excol.html type="middle" %}
 
-**Diverse Abilities and Barriers**
+**Capacités diverses et points bloquants**
 
--   [Repetitive stress injury (Physical
-    disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#physical)
+-   <span lang="en">[Repetitive stress injury (Physical
+    disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#physical){: hreflang="en"}</span> (en anglais)
 
-**Tools and Techniques**
+**Outils et techniques**
 
--   [Accelerators (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
--   [Alternative keyboard and mouse (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
--   [Voice recognition (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
--   [Word prediction (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
--   [Keyboard navigation (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Skip links (Interation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   <span lang="en">[Accelerators (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Alternative keyboard and mouse (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Voice recognition (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Word prediction (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Keyboard navigation (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Skip links (Interation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
 
-**Accessibility principles:**
+**Principes d’accessibilité**
 
--   [Text alternatives for non-text content
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
--   [Content can be presented in different ways
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
--   [Functionality is available from a keyboard
-    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#keyboard)
--   [Users have enough time to read and use the content
-    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time)
--   [Users can easily navigate, find content, and determine where they
-    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
--   [Content appears and operates in predictable ways
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
--   [Users are helped to avoid and correct mistakes
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant)
--   [Content is compatible with current and future user tools
-    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
+-   <span lang="en">[Text alternatives for non-text content
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content can be presented in different ways
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Functionality is available from a keyboard
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#keyboard){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users have enough time to read and use the content
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users can easily navigate, find content, and determine where they
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content appears and operates in predictable ways
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users are helped to avoid and correct mistakes
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is compatible with current and future user tools
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible){: hreflang="en"}</span> (en anglais)
 
 {% include_cached excol.html type="end" %}
 
