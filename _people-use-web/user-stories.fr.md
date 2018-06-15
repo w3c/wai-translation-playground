@@ -10,8 +10,8 @@ footer: >
 
 ---
 
-
 <div lang="fr"><!-- START FRENCH -->
+
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Résumé" class="full" %}
 {:/}
