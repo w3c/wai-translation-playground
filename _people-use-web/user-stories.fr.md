@@ -129,41 +129,41 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 
 {% include_cached excol.html type="end" %}
 
-Martine, online student who is hard of hearing {#onlinestudent}
+Martine, étudiante en ligne, malentendante {#onlinestudent}
 ---------------------------------------------------------------------
 
-Martine is 62 years old and has been hard of hearing since birth. She can hear some sounds, but not enough to understand speech. As a child she learned sign language and during her early school years learned written language. She is currently a student again, taking online college courses.
+Martine a 62 ans et est malentendante depuis la naissance. Elle peut entendre quelques sons, mais pas assez pour comprendre la parole. Dans l’enfance elle a appris la langue des signes, et pendant ses premières années d’école elle a appris la langue écrite. Elle est étudiante à nouveau : elle suit des cours universitaires en ligne.
 
-The university she attends provides sign language interpreters and Communication Access Realtime Translation (CART) writers who provide written verbatim text interpreting of spoken language for her courses. However, Martine has encountered barriers when video and other media content are not captioned. The university became aware of the need and requirement to provide captioned media and transcripts for audio content and is now working with a captioning provider to caption all content posted on university websites, including all course content in learning management systems. In addition to providing access to the content for students who are deaf or hard of hearing, the university has found that the use of captions and transcripts has added benefits. Transcripts facilitate easier production of subtitles in a number of languages and also improve the indexing of online content. Improved indexing provides improved search engine optimization and improved discoverability of the university’s online content. The university follows WCAG guidelines in providing the captioned content.
+L’université à laquelle elle est inscrite propose des interprètes en langue des signes et de la sténographie en temps réel (<i lang="en">Communication Access Realtime Translation</i>) qui fournit des verbatims écrits reprenant ce qui est dit dans ses cours. Cependant Martine rencontre des points bloquants quand les vidéos ou d’autres contenus média ne sont pas sous-titrés. L’université est maintenant consciente des besoins et des obligations de fournir des média sous-titrés et des transcriptions pour les contenus audio ; elle travaille avec un fournisseur de sous-titres afin de sous-titrer tous les contenus publiés sur les sites de l’université, y compris le contenu de tous les cours fournis sur les plate-formes en ligne. En plus de donner un accès aux contenus pour les étudiants sourds et malentendants, l’université a découvert que les sous-titres et les transcriptions ont d’autres bénéfices. Les transcriptions facilitent la production de sous-titres dans plusieurs langues et aident aussi à mieux indexer les contenus en ligne. Une meilleure indexation permet une meilleure optimisation pour les moteurs de recherche et rend les contenus de l’université plus facilement trouvables. L’université suit les recommandations des <abbr>WCAG</abbr> (Recommandations d’Accessibilité des Contenus Web) pour fournir les sous-titres.
 
-For more information on implementing techniques that remove barriers for Martine, see the following resources:
+Pour plus d’informations sur les techniques qui permettent d’enlever des points bloquants pour Martine, référez-vous aux ressources suivantes :
 
 {% include_cached excol.html type="start" id="martine-sections" %}
 
-### Sections related to Martine
+### Sections liées à Martine
 
 {% include_cached excol.html type="middle" %}
 
-**Diverse Abilities and Barriers**
+**Capacités diverses et points bloquants**
 
--   [Hard of hearing (Auditory disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#auditory)
+-   <span lang="en">[Hard of hearing (Auditory disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#auditory){: hreflang="en"}</span> (en anglais)
 
-**Tools and Techniques**
+**Outils et techniques**
 
--   [Captions (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Transcripts (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Sign language (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
+-   <span lang="en">[Captions (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Transcripts (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Sign language (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
 
-**Accessibility principles:**
+**Principes d’accessibilité**
 
--   [Text alternatives for non-text content
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
--   [Captions and other alternatives for multimedia
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#captions)
--   [Content is easier to see and hear
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable)
--   [Content is readable and understandable
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable)
+-   <span lang="en">[Text alternatives for non-text content
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Captions and other alternatives for multimedia
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#captions){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is easier to see and hear
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is readable and understandable
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable){: hreflang="en"}</span> (en anglais)
 
 {% include_cached excol.html type="end" %}
 
