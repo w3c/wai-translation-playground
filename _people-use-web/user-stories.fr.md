@@ -167,63 +167,62 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 
 {% include_cached excol.html type="end" %}
 
-Ilya, senior staff member who is blind
+Ilya, cadre supérieure, aveugle
 ---------------------------------------
 
-Ilya is blind. She is the chief accountant at an insurance company that uses web-based documents and forms over a corporate intranet and like many other blind computer users,
-she does not read Braille.
+Ilya est aveugle. Elle est directrice de la comptabilité dans une compagnie d’assurance qui utilise des documents et des formulaires web sur l’intranet de l’entreprise et, comme de nombreux utilisateurs aveugles d’ordinateurs, elle ne lit pas le Braille.
 
-Ilya uses a screen reader and mobile phone to access the web. Both her screen reader and her mobile phone accessibility features provide her with information regarding the device’s operating system, applications, and text content in a speech output form.
+Ilya utilise un lecteur d’écran et un téléphone mobile pour accéder au Web. Son lecteur d’écran et les services d’accessibilité de son téléphone lui fournissent des informations sur le système, les applications, et les contenus textes dans une forme vocalisée.
 
-When accessing web content, the screen reader indicates aloud the structural information on a webpage such as headings, column and row headers in tables, list items, links, form controls, and more that enable her to better navigate the page, complete and submit forms, and access information in an effective manner. She is able to listen to and understand speech output at a very high speed. Ilya encounters problems when websites are not properly coded and do not include alt text descriptions on images. These sites are unnavigable and require large amounts of time to read text from the top of the page to the bottom without navigation cues. Occasionally she finds herself trapped in areas on a webpage unable to move to another area and must abandon the page altogether.
+Quand elle accède à des contenus web, le lecteur d’écran lui indique à voix haute les informations structurelles d’une page web comme les titres et intertitres, les en-têtes de lignes et de colonnes, les éléments de listes, les liens, les éléments de formulaires, et plus encore, qui lui permettent de mieux naviguer dans la page, de compléter et d’envoyer des formulaires, d’accéder à l’information d’une façon efficace. Elle est capable d’écouter et de comprendre une sortie audio à très grande vitesse. Ilya rencontre des problèmes quand les sites web ne sont pas codés correctement et n’incluent pas de textes alternatifs sur les images. Ces sites ne sont pas navigables et demandent beaucoup de temps pour lire tout le texte du haut en bas de la page sans indications de navigation. De temps en temps elle se retrouve coincée dans une partie d’une page web et est incapable d’en sortir pour aller consulter une autre partie ; elle doit abandonner la page définitivement.
 
-As a senior member of her organization, Ilya provides training to employees in online environments through the use of video conferencing applications, document and slide sharing applications as well as chat rooms. Ilya and her staff evaluated a number of training tools before finding an effective application with accessibility features that meet the needs of a diverse staff with diverse abilities.
+En tant que senior dans son organisation, Ilya forme les employés à travers des outils en ligne, des applications de webinaires, de partage de documents et de présentations, ainsi que des outils de chat. Ilya et son équipe ont testé plusieurs outils avant de trouver une application efficace qui fournit une accessibilité suffisante pour une équipe diverse avec des capacités diverses.
 
-For more information on implementing techniques that remove barriers for Ilya, see the following resources:
+Pour plus d’informations sur les techniques qui permettent d’enlever des points bloquants pour Ilya, référez-vous aux ressources suivantes :
 
 {% include_cached excol.html type="start" id="ilya-sections" %}
 
-### Sections related to Ilya
+### Sections liées à Ilya
 
 {% include_cached excol.html type="middle" %}
 
-**Diverse Abilities and Barriers**
+**Capacités diverses et points bloquants**
 
--   [Blindness (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual)
+-   <span lang="en">[Blindness (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual){: hreflang="en"}</span> (en anglais)
 
-**Tools and Techniques**
+**Outils et techniques**
 
--   [Screen reader (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Text-to-speech (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Transcripts (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Descriptive titles, headings, and labels
-    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Helpful error and success messages
-    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Keyboard navigation (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Skip links (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   <span lang="en">[Screen reader (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Text-to-speech (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Transcripts (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Descriptive titles, headings, and labels
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Helpful error and success messages
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Keyboard navigation (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Skip links (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
 
-**Accessibility principles:**
+**Principes d’accessibilité**
 
--   [Text alternatives for non-text content
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
--   [Captions and other alternatives for multimedia
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#captions)
--   [Content can be presented in different ways
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
--   [Content is easier to see and hear
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable)
--   [Functionality is available from a keyboard
-    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#keyboard)
--   [Users can easily navigate, find content, and determine where they
-    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
--   [Content is readable and understandable
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable)
--   [Content appears and operates in predictable ways
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
--   [Content is compatible with current and future user tools
-    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
+-   <span lang="en">[Text alternatives for non-text content
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Captions and other alternatives for multimedia
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#captions){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content can be presented in different ways
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is easier to see and hear
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Functionality is available from a keyboard
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#keyboard){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users can easily navigate, find content, and determine where they
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is readable and understandable
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content appears and operates in predictable ways
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is compatible with current and future user tools
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible){: hreflang="en"}</span> (en anglais)
 
 {% include_cached excol.html type="end" %}
 
