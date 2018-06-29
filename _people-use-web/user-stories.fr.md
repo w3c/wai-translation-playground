@@ -226,62 +226,62 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 
 {% include_cached excol.html type="end" %}
 
-Preety, middle school student with attention deficit hyperactivity disorder and dyslexia {#classroomstudent}
+Preety, élève de collège avec un trouble du déficit de l'attention avec hyperactivité et dyslexique {#classroomstudent}
 -----------------------------------------------------------------------------------------------------------
 
-Preety is a middle school student with attention deficit hyperactivity disorder with dyslexia. Although she has substantial difficulty reading, she particularly enjoys her literature class.
+Preety est une élève de collège atteinte d’un trouble du déficit de l'attention avec hyperactivité et dyslexique. Bien qu’elle ait des difficultés marquées pour lire, elle aime particulièrement sa classe de littérature.
 
-Preety’s school recently started using online digital textbooks. Preety was initially worried about using this new format, but with the use of text-to-speech software that highlights the text on the screen as it reads it aloud, she has found that she can focus on the content more easily instead of struggling over every word. The text-to-speech software is also helpful with other online text; however, Preety’s experience with websites varies greatly from one site to another. Some sites use graphics and illustrations in a way that helps her to focus on the sections and content that she would like to read, while other sites have a lot of advertisements and moving content that is very distracting. She also experiences problems with online content when the navigation is not clearly evident. She finds websites and apps that provide multiple means of navigation such as a navigation bar, search box, bread-crumb trails, and a sitemap to be much easier to use.
+Le collège de Preety a commencé récemment à utiliser des cartables numériques. Preety était d’abord inquiète à l’idée d’utiliser ce nouveau format, mais avec le logiciel de synthèse vocale qui surligne le texte sur l’écran en même temps qu’il le lit, elle a découvert qu’elle peut se concentrer sur le contenu plus facilement au lieu de peiner devant chaque mot. La synthèse vocale lu est aussi utile avec les textes en ligne ; cependant l’expérience de Preety varie grandement d’un site web à l’autre. Certains sites utilisent des graphiques et des illustrations qui l’aident à se concentrer sur les sections et les contenus qu’elle souhaite lire, tandis que d’autres montrent beaucoup de publicités et de contenus qui bougent, ce qui la distrait. Elle a aussi des soucis avec les contenus en ligne où la navigation n’est pas assez claire. Elle trouve que les sites web et les applications qui fournissent plusieurs moyens de navigation, tels qu’une barre de navigation, un moteur de recherche, un fil d’Ariane, et un plan de site, sont bien plus faciles à utiliser.
 
-Preety's school is also using a new online library catalog with improved accessibility. Before the new catalog was implemented Preety had to physically visit the library to receive assistance in searching and locating material. Now she can search the catalog on her own using her mobile phone, tablet, or laptop. Preety still struggles with spelling but has found that search functionality that suggest alternative spellings and provide error corrections are very helpful and greatly improve her experience.
+Le collège de Preety utilise aussi un nouveau logiciel pour sa bibliothèque dont l’accessibilité est meilleure. Avant cela, Preety était obligé de visiter physiquement la bibliothèque et de se faire aider pour faire ses recherches et trouver le matériel. Maintenant qu’elle fait ses recherches toute seule sur son téléphone mobile, sa tablette ou son ordinateur, Preety peine encore à orthographier correctement mais a découvert que la fonction de recherche (qui fournit des orthographes alternatives et des corrections d’erreurs) est très utile et améliore grandement son expérience.
 
-For more information on implementing techniques that remove barriers for Preety, see the following resources:
+Pour plus d’informations sur les techniques qui permettent d’enlever des points bloquants pour Preety, référez-vous aux ressources suivantes :
 
 {% include_cached excol.html type="start" id="preety-sections" %}
 
-### Sections related to Preety
+### Sections liées à Preety
 
 {% include_cached excol.html type="middle" %}
 
-**Diverse Abilities and Barriers**
+**Capacités diverses et points bloquants**
 
--   [Attention deficit hyperactivity disorder, ADHD (Cognitive
-    disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive)
--   [Dyslexia (Cognitive disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive)
+-   <span lang="en">[Attention deficit hyperactivity disorder, ADHD (Cognitive
+    disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Dyslexia (Cognitive disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive){: hreflang="en"}</span> (en anglais)
 
-**Tools and Techniques**
+**Outils et techniques**
 
--   [Captions (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Screen reader (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Text-to-speech (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Pop-up and animations blockers
-    (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Reading assistants (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Spelling and grammar tools (input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
--   [Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Helpful error and success messages
-    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Keyword search (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Multiple navigation mechanisms (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   <span lang="en">[Captions (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Screen reader (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Text-to-speech (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Pop-up and animations blockers
+    (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Reading assistants (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Spelling and grammar tools (input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Helpful error and success messages
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Keyword search (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Multiple navigation mechanisms (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
 
-**Accessibility principles:**
+**Principes d’accessibilité**
 
--   [Text alternatives for non-text content
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
--   [Content can be presented in different ways
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
--   [Users have enough time to read and use the content
-    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time)
--   [Users can easily navigate, find content, and determine where they
-    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
--   [Content is readable and understandable
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable)
--   [Content appears and operates in predictable ways
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
--   [Users are helped to avoid and correct mistakes
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant)
--   [Content is compatible with current and future user tools
-    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
+-   <span lang="en">[Text alternatives for non-text content
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content can be presented in different ways
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users have enough time to read and use the content
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users can easily navigate, find content, and determine where they
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is readable and understandable
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content appears and operates in predictable ways
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users are helped to avoid and correct mistakes
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is compatible with current and future user tools
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible){: hreflang="en"}</span> (en anglais)
 
 {% include_cached excol.html type="end" %}
 
