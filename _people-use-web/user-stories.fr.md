@@ -285,63 +285,63 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 
 {% include_cached excol.html type="end" %}
 
-Yun, retiree with low vision, hand tremor, and mild short-term memory loss {#retiree}
+Yun, retraité avec une mauvaise vue, un tremblement des mains, et une perte de mémoire à court terme {#retiree}
 --------------------------------------------------------------------------------------------
 
-Yun is an 85 year-old with reduced vision, hand-tremor, and mild memory loss; common age-related impairments for someone his age. Yun regularly browses the web reading news sites. In recent years he also started using social media to stay in touch with his family and friends. He maintains his own blog where he posts articles on art history and other topics he enjoys.
+Yun a 85 ans, une mauvaise vue, des mains qui tremblent, et une perte de mémoire, qui sont des problèmes assez fréquents pour quelqu’un de son âge. Yun surfe régulièrement sur le Web pour lire des sites d’information. Ces dernières années il a aussi commencé à utiliser des médias sociaux pour rester en contact avec sa famille et ses amis. Il tient son propre blog où il publie des articles sur l’histoire de l’art et d’autres sujets qu’il apprécie.
 
-Like many older individuals, Yun has difficulty reading small text and clicking on small links and form elements. His daughter showed him how to enlarge text in the web browser, which works well on many websites. He encounters problems when text does not reflow when it is enlarged and he is forced to scroll back and forth to read the enlarged content, which means he easily loses track of his place. He also has problems with CAPTCHA images found on many social media sites. The text is so distorted, even when he enlarges it, that he often cannot accurately enter the text. He has a better experience on sites that use alternative CAPTCHA options, unfortunately only a small number currently do.
+Comme de nombreuses personnes, Yun a des difficultés pour lire les textes écrits petits et pour cliquer sur de petits liens ou de petits éléments de formulaires. Il rencontre des problèmes quand le texte ne s’affiche pas comme il faut quand on l’agrandit, et il est obligé de faire défiler la page de gauche à droite pour lire les contenus agrandis, ce qui lui fait rapidement perdre ses repères. Il a aussi des soucis avec les images de CAPTCHA qu’on trouve sur de nombreux sites de médias sociaux. Le texte est tellement déformé, même quand il l’agrandit, qu’il ne peut souvent pas saisir correctement le texte. Il a une meilleure expérience sur les sites qui utilisent des versions alternatives aux CAPTCHA, malheureusement seul un petit nombre d’entre eux en fournissent.
 
-Yun’s daughter gave him a special mouse that is easier to control with his hand tremors. He also uses a web browser that saves thumbnail images of his frequently visited sites, which makes it easier for him to keep track of the sites he goes to most often.
+La fille de Yun lui a donné une souris spéciale qui est plus facile à contrôler avec son tremblement. De plus, il utilise un navigateur qui enregistre des miniatures des sites qu’il visite fréquemment, ce qui lui permet plus facilement de retrouver les sites qu’il visite souvent.
 
-For more information on implementing techniques that remove barriers for Yun, see the following resources:
+Pour plus d’informations sur les techniques qui permettent d’enlever des points bloquants pour Yun, référez-vous aux ressources suivantes :
 
 {% include_cached excol.html type="start" id="yun-sections" %}
 
-### Sections related to Yun
+### Sections liées à Yun
 
 {% include_cached excol.html type="middle" %}
 
-**Diverse Abilities and Barriers**
+**Capacités diverses et points bloquants**
 
--   [Low vision (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual)
--   [Hand tremor (Physical disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#physical)
--   [Mild short-term memory loss (Cognitive
-    disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive)
+-   <span lang="en">[Low vision (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Hand tremor (Physical disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#physical){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Mild short-term memory loss (Cognitive
+    disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive){: hreflang="en"}</span> (en anglais)
 
-**Tools and Techniques**
+**Outils et techniques**
 
--   [Screen magnification (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Alternative keyboard and mouse (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
--   [Keyboard and mouse filters (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
--   [Mouse customization (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
--   [Bookmarks and history (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Descriptive titles, headings, and labels
-    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Helpful error and success messages
-    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   <span lang="en">[Screen magnification (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Alternative keyboard and mouse (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Keyboard and mouse filters (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Mouse customization (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Bookmarks and history (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Descriptive titles, headings, and labels
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Helpful error and success messages
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
 
-**Accessibility principles:**
+**Principes d’accessibilité**
 
--   [Text alternatives for non-text content
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
--   [Content can be presented in different ways
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
--   [Content is easier to see and hear
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable)
--   [Users have enough time to read and use the content
-    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time)
--   [Users can easily navigate, find content, and determine where they
-    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
--   [Content is readable and understandable
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable)
--   [Content appears and operates in predictable ways
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
--   [Users are helped to avoid and correct mistakes
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant)
--   [Content is compatible with current and future user tools
-    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
+-   <span lang="en">[Text alternatives for non-text content
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content can be presented in different ways
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is easier to see and hear
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users have enough time to read and use the content
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users can easily navigate, find content, and determine where they
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is readable and understandable
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content appears and operates in predictable ways
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users are helped to avoid and correct mistakes
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is compatible with current and future user tools
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible){: hreflang="en"}</span> (en anglais)
 
 {% include_cached excol.html type="end" %}
 
