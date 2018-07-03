@@ -406,20 +406,20 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 
 {% include_cached excol.html type="end" %}
 
-Kaseem, teenager who is deaf and blind {#teenager}
+Kaseem, adolescente qui est sourde et aveugle {#teenager}
 -----------------------------------------------------
 
-Kaseem is a teenager who is deaf and recently became legally blind too, which means she can see only small portions of a screen and read text when it is significantly enlarged.
+Kaseem est une adolescente sourde et depuis peu légalement aveugle, ce qui signifie qu’elle ne peut voir qu’une petite partie de son écran et qu’elle ne peut lire du texte que s’il est significativement agrandi.
 
-Kaseem uses:
+Kaseem utilise :
 
-* screen magnification software to enlarge the text on websites to a suitable font size;
-* screen reader software that displays text on a refreshable Braille device;
-* large computer screen with high resolution and high luminosity (brightness).
+* un logiciel de zoom écran pour agrandir le texte des sites web jusqu’à une taille lisible,
+* un logiciel de synthèse vocale qui affiche le texte sur une plage Braille,
+* un grand écran d’ordinateur avec une grande résolution et une forte luminosité.
 
-Kaseem’s portable electronic Braille notetaker includes a calendar, e-mail, web browsing, and note-taking functionality. Her mobile device includes GPS which helps her orient herself and navigate around the city. Kaseem uses the public transportation online site to plan her trips and view bus schedules, but encounters problems when she enlarges the text and it does not reflow or wrap properly, making the maps very difficult to use. She has a better experience viewing the train schedules that are properly marked up and allow text reflow. Kaseem found the web team contact information listed at the public transportation website and sent a message to the team informing them of the problems she encountered using their site. She also sent them the link to the train website and described how that site works better for her. She recently received an email message thanking her for her information and informing her that the public transportation web team plans to implement accessibility improvements in the launch of their new website.
+L’assistant électronique portable Braille de Kaseem inclut un calendrier, un client mail, un navigateur web, et un outil de prise de notes. Son appareil mobile comprend un GPS qui l’aide à se repérer et à circuler en ville. Kaseem utilise le site des transports publics pour organiser ses déplacements et voir les horaires des bus, mais elle rencontre des problèmes quand elle agrandit le texte et qu’il ne se réorganise pas comme il faut, ce qui rend l’utilisation des cartes très difficile. Son expérience est meilleure avec les horaires de trains qui sont correctement balisés et permettent une réorganisation du texte. Kaseem a trouvé les informations de contact de l’équipe web sur le site des transports publics, et leur a envoyé un message pour leur expliquer les problèmes qu’elle rencontre sur leur site. Elle leur a aussi envoyé un lien vers le site web des trains en leur décrivant en quoi il fonctionne mieux pour elle. Elle a récemment reçu un message pour la remercier de ces informations et l’informer que l’équipe web des transports publics améliorera l’accessibilité du site web lors de sa prochaine version.
 
-For more information on implementing techniques that remove barriers for Kaseem, see the following resources:
+Pour plus d’informations sur les techniques qui permettent d’enlever des points bloquants pour Kaseem, référez-vous aux ressources suivantes :
 
 {% include_cached excol.html type="start" id="kaseem-sections" %}
 
@@ -427,46 +427,46 @@ For more information on implementing techniques that remove barriers for Kaseem,
 
 {% include_cached excol.html type="middle" %}
 
-**Diverse Abilities and Barriers**
+**Capacités diverses et points bloquants**
 
--   [Deaf-blindness (Auditory disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#auditory)
--   [Deaf-blindness (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual)
+-   <span lang="en">[Deaf-blindness (Auditory disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#auditory){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Deaf-blindness (Visual disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#visual){: hreflang="en"}</span> (en anglais)
 
-**Tools and Techniques**
+**Outils et techniques**
 
--   [Braille (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Refreshable Braille display (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Screen reader (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Text-to-speech (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Transcripts (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception)
--   [Customized fonts and colors (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Screen magnification (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Screen magnifier (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Descriptive titles, headings, and labels
-    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Helpful error and success messages
-    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Keyboard navigation (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Skip links (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   <span lang="en">[Braille (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Refreshable Braille display (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Screen reader (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Text-to-speech (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Transcripts (Perception)]({{ "/people-use-web/tools-techniques/" | relative_url }}#perception){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Customized fonts and colors (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Screen magnification (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Screen magnifier (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Descriptive titles, headings, and labels
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Helpful error and success messages
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Keyboard navigation (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Skip links (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
 
-**Accessibility principles:**
+**Principes d’accessibilité**
 
--   [Text alternatives for non-text content
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives)
--   [Alternatives for audio and video content
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#captions)
--   [Content can be presented in different ways
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
--   [Content is easier to see and hear
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable)
--   [Users have enough time to read and use the content
-    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time)
--   [Users can easily navigate, find content, and determine where they
-    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
--   [Content appears and operates in predictable ways
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
--   [Content is compatible with current and future user tools
-    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
+-   <span lang="en">[Text alternatives for non-text content
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#alternatives){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Alternatives for audio and video content
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#captions){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content can be presented in different ways
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is easier to see and hear
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users have enough time to read and use the content
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users can easily navigate, find content, and determine where they
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content appears and operates in predictable ways
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is compatible with current and future user tools
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible){: hreflang="en"}</span> (en anglais)
 
 {% include_cached excol.html type="end" %}
 
