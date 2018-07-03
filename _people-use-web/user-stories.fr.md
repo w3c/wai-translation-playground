@@ -345,64 +345,64 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 
 {% include_cached excol.html type="end" %}
 
-Luis, supermarket assistant with Down syndrome {#supermarketassistant}
+Luis, assistant en supermarché, atteint du syndrome de Down {#supermarketassistant}
 ----------------------------------------------------------------------------
 
-Luis has Down syndrome and has difficulty with abstract concepts, reading, and math calculations.
+Luis a le syndrome de Down ; il a des difficultés avec les concepts abstraits, la lecture, et le calcul.
 
-Luis works at a market, bagging groceries for customers. Typically he buys his groceries at the same market where he works, but he is sometimes confused by the large number of product choices and sometimes has problems finding his favorite items when the store layout is changed.
+Luis travaille dans un supermarché, il ensache les courses des clients. Il fait régulièrement ses courses dans le magasin où il travaille, mais il est parfois perdu devant le grand nombre de choix de produits, et il a quelquefois des difficultés à trouver ses produits favoris quand le magasin réorganise ses rayons.
 
-Recently, a friend showed him an app for online grocery purchases that has consistent, easy-to-use navigation with clear and direct instructions. Luis is able to add the list of his most frequently purchased items into the app and save it for additional purchases. He also likes the search functionality that makes suggestions for mistyped or misspelled words. The app also keeps a running total of the items in his virtual shopping cart which helps him keep up with how much he is spending.
+Dernièrement un ami lui a montré une application pour faire ses courses en ligne, qui fournit une navigation cohérente et facile à utiliser, avec des instructions directes et claires. Luis est capable d’ajouter dans l’application la liste des produits qu’il achète le plus souvent et de la sauvegarder pour pouvoir refaire ses courses. De plus, il aime la fonction de recherche qui fait des suggestions pour les mots mal orthographiés. L’application tient à jour une liste des articles dans son panier virtuel, ce qui l’aide à savoir combien il va dépenser.
 
-His friend also showed him several accessibility features in his mobile phone that he finds very helpful including word prediction which provides a selection of possible word choices based on the first characters he enters and the text-to-speech functionality which allows him to listen to reviews posted by other users on the grocery app. With the use of these tools, Luis has begun posting his own reviews of items he has purchased.
+Son ami lui a aussi montré des fonctions d’accessibilité de son téléphone mobile qu’il trouve très utiles, comme la saisie prédictive qui fournit une sélection de mots possibles sur la base des premiers caractères qu’il a tapés, et la fonction de synthèse vocale qui lui permet d’écouter les avis d’autres clients dans l’application de courses. Grâce à ces outils, Luis a commencé à publier ses propres avis sur les produits qu’il a achetés.
 
-Luis now uses the shopping app a couple of times a month for frequently purchased items and buys a few fresh items regularly from the store where he works.
+Luis utilise maintenant l’application de courses deux fois par mois pour retrouver les articles achetés fréquemment, et il achète régulièrement quelques produits frais dans le magasin où il travaille.
 
 For more information on implementing techniques that remove barriers for Luis, see the following resources:
 
 {% include_cached excol.html type="start" id="luis-sections" %}
 
-### Sections related to Luis
+### Sections liées à Luis
 
 {% include_cached excol.html type="middle" %}
 
-**Diverse Abilities and Barriers**
+**Capacités diverses et points bloquants**
 
--   [Down syndrome (Cognitive disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive)
+-   <span lang="en">[Down syndrome (Cognitive disabilities)]({{ "/people-use-web/abilities-barriers/" | relative_url }}#cognitive){: hreflang="en"}</span> (en anglais)
 
-**Tools and Techniques**
+**Outils et techniques**
 
--   [Easy-to-read text (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Pop-up and animations blockers
-    (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Progressive disclosure (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Reading assistants (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Reduced interface (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation)
--   [Accelerators (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
--   [Spelling and grammar tools (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input)
--   [Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Descriptive titles, headings, and labels
+-   <span lang="en">[Easy-to-read text (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Pop-up and animations blockers
+    (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Progressive disclosure (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Reading assistants (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Reduced interface (Presentation)]({{ "/people-use-web/tools-techniques/" | relative_url }}#presentation){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Accelerators (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Spelling and grammar tools (Input)]({{ "/people-use-web/tools-techniques/" | relative_url }}#input){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Consistency and predictability (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Descriptive titles, headings, and labels
+    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Helpful error and success messages
     (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Helpful error and success messages
-    (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
--   [Multiple navigation mechanisms (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction)
+-   <span lang="en">[Multiple navigation mechanisms (Interaction)]({{ "/people-use-web/tools-techniques/" | relative_url }}#interaction){: hreflang="en"}</span> (en anglais)
 
-**Accessibility principles:**
+**Principes d’accessibilité**
 
--   [Content can be presented in different ways
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable)
--   [Users have enough time to read and use the content
-    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time)
--   [Users can easily navigate, find content, and determine where they
-    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable)
--   [Content is readable and understandable
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable)
--   [Content appears and operates in predictable ways
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable)
--   [Users are helped to avoid and correct mistakes
-    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant)
--   [Content is compatible with current and future user tools
-    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible)
+-   <span lang="en">[Content can be presented in different ways
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users have enough time to read and use the content
+    (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#time){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users can easily navigate, find content, and determine where they
+    are (Operable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#navigable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is readable and understandable
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#readable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content appears and operates in predictable ways
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#predictable){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Users are helped to avoid and correct mistakes
+    (Understandable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#tolerant){: hreflang="en"}</span> (en anglais)
+-   <span lang="en">[Content is compatible with current and future user tools
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible){: hreflang="en"}</span> (en anglais)
 
 {% include_cached excol.html type="end" %}
 
