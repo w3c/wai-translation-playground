@@ -358,7 +358,7 @@ Son ami lui a aussi montré des fonctions d’accessibilité de son téléphone 
 
 Luis utilise maintenant l’application de courses deux fois par mois pour retrouver les articles achetés fréquemment, et il achète régulièrement quelques produits frais dans le magasin où il travaille.
 
-For more information on implementing techniques that remove barriers for Luis, see the following resources:
+Pour plus d’informations sur les techniques qui permettent d’enlever des points bloquants pour Luis, référez-vous aux ressources suivantes :
 
 {% include_cached excol.html type="start" id="luis-sections" %}
 
