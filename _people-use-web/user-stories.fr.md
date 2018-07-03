@@ -63,11 +63,11 @@ Pour plus d’informations sur les techniques qui permettent d’enlever des poi
 **Principes d’accessibilité**
 
 -   <span lang="en">[Content can be presented in different ways
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable{: hreflang="en"})</span> (en anglais)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#adaptable){: hreflang="en"}</span> (en anglais)
 -   <span lang="en">[Content is easier to see and hear
-    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable{: hreflang="en"})</span> (en anglais)
+    (Perceivable)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#distinguishable){: hreflang="en"}</span> (en anglais)
 -   <span lang="en">[Content is compatible with current and future user tools
-    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible{: hreflang="en"})</span> (en anglais)
+    (Robust)]({{ "/fundamentals/accessibility-principles/" | relative_url }}#compatible){: hreflang="en"}</span> (en anglais)
 
 {% include_cached excol.html type="end" %}
 
