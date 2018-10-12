@@ -1,0 +1,83 @@
+{%- assign col = site.collections | where: "label", page.collection | first -%}
+{%- if page.parent == "/" -%}
+  {%- assign searchurl = page.parent -%}
+{%- else -%}
+  {%- if (page.ref and page.lang) -%}
+    {%- if page.lang != "en" -%}
+      {%- if col.docs -%}
+        {% assign enpage=col.docs | where:"ref", page.ref | where: "lang", "en" | first %}
+      {%- else -%}
+        {% assign enpage=site.pages | where:"ref", page.ref | where: "lang", "en" | first %}
+      {%- endif -%}
+      {%- assign searchurl = enpage.url -%}
+    {%- else -%}
+      {%- assign searchurl = page.url -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- assign searchurl = page.url -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if col.navigation -%}
+  {%- assign currentsubnav = col.navigation -%}
+{%- else -%}
+{%- for item in site.data.navigation -%}
+  {%- for i in item.pages -%}
+    {%- if i.url == searchurl -%}
+      {%- assign currentsubnav = item -%}
+    {%- else -%}
+      {%- for j in i.pages -%}
+        {%- if j.url == searchurl -%}
+          {%- assign currentsubnav = item -%}
+        {%- else -%}
+          {%- for k in j.pages -%}
+            {%- if k.url == searchurl -%}
+              {%- assign currentsubnav = item -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- endif -%}
+
+{%- for i in currentsubnav.pages -%}
+  {%- if forloop.first -%}
+    <nav class="sidenav sn-contents" aria-label="Secondary">
+      <div class="sidenav--head"><div class="sidenav--head-title"><div class="sidenav--head-subsection">{{ currentsubnav.name }}</div></div></div>
+      <ul class="sidenav--list">
+  {% endif %}
+  {%- assign insub = false -%}
+  {%- assign insubsub = false -%}
+  {%- capture submenu -%}
+    {%- for j in i.pages -%}
+      {%- capture subsubmenu -%}
+        {%- for k in j.pages -%}
+          {%- if forloop.first %}<ul>{% endif -%}
+            {%- if k.url == searchurl -%}
+              {% assign insub = true %}
+              {% assign insubsub = true %}
+              {% include menuitem.html name=k.name url=k.url different=k.different insub=false current=true %}
+            {%- else -%}
+              {% include menuitem.html name=k.name url=k.url different=k.different insub=false current=false %}
+            {%- endif -%}
+          {%- if forloop.last %}</ul>{% endif -%}
+        {%- endfor -%}
+      {%- endcapture -%}
+      {%- if forloop.first %}<ul>{% endif -%}
+        {%- if j.url == searchurl -%}
+          {% assign insub = true %}
+          {% include menuitem.html name=j.name url=j.url different=j.different insub=insubsub current=true submenu=subsubmenu %}
+        {%- else -%}
+          {% include menuitem.html name=j.name url=j.url different=j.different insub=insubsub current=false submenu=subsubmenu %}
+        {%- endif -%}
+      {%- if forloop.last %}</ul>{% endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- if i.url == searchurl -%}
+    {% include menuitem.html name=i.name url=i.url different=i.different insub=insub current=true submenu=submenu %}
+  {%- else -%}
+    {% include menuitem.html name=i.name url=i.url different=i.different insub=insub current=false submenu=submenu %}
+  {%- endif -%}
+  {%- if forloop.last %}</ul></nav>{% endif -%}
+{%- endfor -%}
