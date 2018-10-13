@@ -11,7 +11,7 @@ footer: >
   <p><strong>Date&#8239;:</strong> dernière mise à jour de cette traduction le 12 septembre 2018.</p>
   <p lang="en"><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. Previous editor: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Acknowledgments</a>.</p>
   <p lang="en">Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
-ref: wai-people-use-web-index
+ref: wai-people-use-web/index
 lang: fr
 ---
 

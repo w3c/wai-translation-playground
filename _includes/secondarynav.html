@@ -4,11 +4,14 @@
 {%- else -%}
   {%- if (page.ref and page.lang) -%}
     {%- if page.lang != "en" -%}
+      {% assign enpage=site.documents | where:"ref", page.ref | where: "lang", "en" | first %}
+      {% comment %}
       {%- if col.docs -%}
         {% assign enpage=col.docs | where:"ref", page.ref | where: "lang", "en" | first %}
       {%- else -%}
         {% assign enpage=site.pages | where:"ref", page.ref | where: "lang", "en" | first %}
       {%- endif -%}
+      {% endcomment%}
       {%- assign searchurl = enpage.url -%}
     {%- else -%}
       {%- assign searchurl = page.url -%}
