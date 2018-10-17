@@ -12,6 +12,10 @@ footer: >
   <p lang="en">Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
 ref: wai-people-use-web/abilities-barriers
 lang: fr
+last_updated: 2018-09-12
+translator: "Stéphane Deschamps"
+contributers: "Denis Boudreau"
+reviewers: "Denis Boudreau"
 ---
 
 {::nomarkdown}
