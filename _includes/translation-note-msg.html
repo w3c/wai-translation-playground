@@ -1,6 +1,9 @@
 {% assign enpage=site.documents | where:"ref", page.ref | where: "lang", "en" | first %}
-<section class="doc-note-box" lang="en">
-  <p>This is a volunteer translation. It may not directly reflect the intentions of the <a href="{{ enpage.url | relative_url }}">current English version</a>.</p>
-  <p>This translation last updated: {{page.last_updated | date: "%Y-%B-%d"}}. English version last updated: {{enpage.last_updated | date: "%Y-%B-%d"}}.</p>
-  <p>Translator: {{page.translator}}. Contributors: {{page.contributors}}. Reviewers: {{page.reviewers}}. WAI thanks you for your translations work!</p>
+<section class="doc-note-box" lang="en" style="font-size: .875rem;">
+  <p style="margin: 0 0 .5em 0;">This volunteer translation might not reflect the intentions of the <a href="{{ enpage.url | relative_url }}">English original</a>.</p>
+  <p style="margin: .5em 0;">{% include_cached icon.html name="check-circle" %} Translation up-to-date (last updated: {{page.last_updated | date: "%d-%b-%Y"}}).</p>
+  <p style="margin: .5em 0;">{% include_cached icon.html name="warning" %} English version updated since this translation. <a href="????">Change log/Diff.</a>
+    <br>English version last updated {{enpage.last_updated | date: "%d-%b-%Y"}}. Translation last updated: {{page.last_updated | date: "%d-%b-%Y"}}.
+  </p>
+  <p style="margin: .5em 0 0 0;"><strong>Translator:</strong> {{page.translator}}. Contributors: {{page.contributors}}. Reviewers: {{page.reviewers}}. <br>WAI thanks translators, and welcomes other <a href="{{ "/about/translating/" | relative_url }}">translations</a>.</p>
 </section>
