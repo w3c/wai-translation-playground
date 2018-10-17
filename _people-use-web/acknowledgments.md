@@ -14,14 +14,14 @@ last_updated: 2017-05-15
     Sinclair
 -   Previous and initial editor: Judy Brewer
 
-## Contributers to this version {#current}
+## contributors to this version {#current}
 
 Brent Bakken, Eric Eggert, Robert Jolly, Laura Keen, Kris Anne Kinney,
 Howard Kramer, Shawn Lawton Henry, Sharron Rush, and participants of the
 [Education and Outreach Working Group
 (EOWG)](http://www.w3.org/WAI/EO/).
 
-## Contributers to previous versions {#previous}
+## contributors to previous versions {#previous}
 
 Some initial material drawn from Gregg Vanderheiden and Kate
 Vanderheiden.

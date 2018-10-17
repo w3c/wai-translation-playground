@@ -4,12 +4,6 @@ order: 3
 permalink: /people-use-web/tools-techniques/fr/
 description: Introduit quelques techniques et outils que les personnes atteintes de handicaps utilisent pour interagir avec le Web – réglages de navigateurs, synthèse vocale, reconnaissance vocale et bien d’autres.
 image: /content-images/wai-people-use-web/social.png
-lang: fr
-footer: >
-  <p>Traduction&#8239;: Stéphane Deschamps pour <a href="http://www.w3.org/WAI/EO/" hreflang="en">EOWG</a>. La seule version officielle est <a href="https://www.w3.org/WAI/people-use-web/tools-techniques/" hreflang="en">https://www.w3.org/WAI/people-use-web/tools-techniques/</a> (en anglais).</p>
-  <p><strong>Date:</strong> dernière mise à jour de cette traduction le @@DATE.</p>
-  <p lang="en"><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/" hreflang="en">Shadi Abou_Zahra</a>. Previous editor: <a href="https://www.w3.org/People/Brewer/" hreflang="en">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments" hreflang="en">Acknowledgments</a>.</p>
-  <p lang="en">Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/" hreflang="en">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf" hreflang="en">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/" hreflang="en">WAI-AGE Project</a>.</p>
 ref: wai-people-use-web/tools-techniques
 lang: fr
 last_updated: 2018-09-12

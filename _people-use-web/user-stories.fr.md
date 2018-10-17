@@ -4,11 +4,6 @@ order: 1
 permalink: /people-use-web/user-stories/fr/
 description: Des personas de personnes atteintes de handicaps et utilisant le Web qui montrent l’effet des points de blocage non accessibles, et les avantages pour tous de faire des sites et des outils web accessibles.
 image: /content-images/wai-people-use-web/social.png
-footer: >
-  <p>Traduction&#8239;: Stéphane Deschamps pour <a href="http://www.w3.org/WAI/EO/" hreflang="en">EOWG</a>. La seule version officielle est <a href="https://www.w3.org/WAI/people-use-web/user-stories/" hreflang="en">https://www.w3.org/WAI/people-use-web/user-stories/</a> (en anglais).</p>
-  <p><strong>Date&#8239;:</strong> dernière mise à jour de cette traduction le 5 juillet 2018.</p>
-  <p lang="en"><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a> and Norah Sinclair. Previous editor: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Acknowledgments</a>.</p>
-  <p lang="en">Developed by the Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Previously developed with the <a href="https://www.w3.org/WAI/EO/2008/wai-age-tf">WAI-AGE Task Force</a>, with support of the <a href="https://www.w3.org/WAI/WAI-AGE/">WAI-AGE Project</a>.</p>
 ref: wai-people-use-web/user-stories
 lang: fr
 last_updated: 2018-09-12
