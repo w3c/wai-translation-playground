@@ -1,0 +1,6 @@
+{% assign enpage=site.documents | where:"ref", page.ref | where: "lang", "en" | first %}
+<section class="doc-note-box" lang="en">
+  <p>This is a volunteer translation. It may not directly reflect the intentions of the <a href="{{ enpage.url | relative_url }}">current English version</a>.</p>
+  <p>This translation last updated: {{page.last_updated}}. English version last updated: {{enpage.last_updated}}.</p>
+  <p>Translator: {{page.translator}}. Contributors: {{page.contributors}}. Reviewers: {{page.reviewers}}. WAI thanks you for your translations work!</p>
+</section>
