@@ -1,6 +1,6 @@
 {% assign enpage=site.documents | where:"ref", page.ref | where: "lang", "en" | first %}
 <section class="doc-note-box" lang="en" style="font-size: .875rem;">
-  <p style="margin: 0 0 .5em 0;">This volunteer translation might not reflect the intentions of the <a href="{{ enpage.url | relative_url }}">English original</a>.</p>
+  <p style="margin: 0 0 .5em 0;">This volunteer translation might not accurately reflect the intentions of the <a href="{{ enpage.url | relative_url }}">English original</a>.</p>
   <p style="margin: .5em 0;">{% include_cached icon.html name="check-circle" %} Translation up-to-date with English version.
     <br>Translation updated: {{page.last_updated | date: "%d %b %Y"}}. English updated: {{enpage.last_updated | date: "%d %b %Y"}}.
    </p>
