@@ -1,0 +1,71 @@
+- en: "About this Translation"
+  de: "Zu dieser Übersetzung"
+  fr: "A propos de cette traduction" # machine translation for demonstration purposes
+  es: "Acerca de esta traducción" # machine translation for demonstration purposes
+  it: "A proposito di questa traduzione" # machine translation for demonstration purposes
+  nl: "Over deze vertaling" # machine translation for demonstration purposes
+  pl: "O tym tłumaczeniu" # machine translation for demonstration purposes
+- en: 'This volunteer translation might not accurately reflect the intentions of the <a href="$1">English original</a>.'
+  de: 'Diese freiwillige Übersetzung spiegelt möglicherweise nicht genau die Absichten des <a href="$1">englischen Originals</a> wider.'
+  fr: 'Cette traduction volontaire pourrait ne pas refléter fidèlement les intentions de <a href="$1">l’original anglais</a>.' # machine translation for demonstration purposes
+  es: 'Es posible que esta traducción voluntaria no refleje con exactitud las intenciones del <a href="$1">original en inglés</a>.' # machine translation for demonstration purposes
+  it: 'Questa traduzione volontaria potrebbe non riflettere accuratamente le intenzioni dell’<a href="$1">originale inglese</a>.' # machine translation for demonstration purposes
+  nl: 'Deze vrijwillige vertaling weerspiegelt mogelijk niet de bedoelingen van het <a href="$1">Engelse origineel</a>.' # machine translation for demonstration purposes
+  pl: 'To tłumaczenie wolontariusza może nie odzwierciedlać dokładnie intencji <a href="$1">angielskiego oryginału</a>.' # machine translation for demonstration purposes
+- en: 'English updated:'
+  de: 'Englisch aktualisiert:'
+  fr: 'Anglais mis à jour:' # machine translation for demonstration purposes
+  es: 'Inglés actualizado:' # machine translation for demonstration purposes
+  it: 'Inglese aggiornato:' # machine translation for demonstration purposes
+  nl: 'Engels bijgewerkt:' # machine translation for demonstration purposes
+  pl: 'Aktualizacja w języku angielskim:' # machine translation for demonstration purposes
+- en: 'Translation updated:'
+  de: 'Übersetzung aktualisiert:'
+  fr: 'Mise à jour de la traduction:' # machine translation for demonstration purposes
+  es: 'Traducción actualizada:' # machine translation for demonstration purposes
+  it: 'Traduzione aggiornata:' # machine translation for demonstration purposes
+  nl: 'Vertaling bijgewerkt:' # machine translation for demonstration purposes
+  pl: 'Tłumaczenie zaktualizowane:' # machine translation for demonstration purposes
+- en: 'Translation up-to-date with the English version.'
+  de: 'Übersetzung auf dem Stand der englischen Version.'
+  fr: 'Traduction mise à jour avec la version anglaise.' # machine translation for demonstration purposes
+  es: 'Traducción actualizada con la versión inglesa.' # machine translation for demonstration purposes
+  it: 'Traduzione aggiornata con la versione inglese.' # machine translation for demonstration purposes
+  nl: 'Vertaling up-to-date met de Engelse versie.' # machine translation for demonstration purposes
+  pl: 'Tłumaczenie na bieżąco z wersją angielską.' # machine translation for demonstration purposes
+- en: 'English version updated since this translation: <a href="$1">Change log</a>.'
+  de: 'Englische Version aktualisiert seit dieser Übersetzung: <a href="$1">Änderungsprotokoll</a>.'
+  fr: 'Version anglaise mise à jour depuis cette traduction : <a href="$1">Journal des modifications</a>.' # machine translation for demonstration purposes
+  es: 'Versión en inglés actualizada desde esta traducción: <a href="$1">Log de modificaciones</a>.' # machine translation for demonstration purposes
+  it: 'Versione inglese aggiornata dopo questa traduzione: <a href="$1">Cambia log</a>.' # machine translation for demonstration purposes
+  nl: 'Engelse versie bijgewerkt sinds deze vertaling: <a href="$1">Wijzig logboek</a>.' # machine translation for demonstration purposes
+  pl: 'Wersja angielska zaktualizowana od czasu tego tłumaczenia: <a href="$1">Zmień dziennik</a>.' # machine translation for demonstration purposes
+- en: 'Translator:' # The following translations have been done with “Translation” as a basis to avoid non gender-neutral language
+  de: 'Übersetzung:'
+  fr: 'Traduction :' # machine translation for demonstration purposes
+  es: 'Traducción:' # machine translation for demonstration purposes
+  it: 'Traduzione:' # machine translation for demonstration purposes
+  nl: 'Vertaling:' # machine translation for demonstration purposes
+  pl: 'Tłumaczenie:' # machine translation for demonstration purposes
+- en: 'Contributor:' # The following translations have been done with “Contributors” as a basis to avoid non gender-neutral language
+  de: 'Mitwirkende:'
+  fr: 'Collaborateurs :' # machine translation for demonstration purposes
+  es: 'Colaboradores:' # machine translation for demonstration purposes
+  it: 'Collaboratori:' # machine translation for demonstration purposes
+  nl: 'Bijdragers:' # machine translation for demonstration purposes
+  pl: 'Współpracownicy:' # machine translation for demonstration purposes
+- en: 'WAI thanks these translators, and welcomes other <a href="$1">translations</a>.'
+  de: 'WAI dankt diesen Übersetzerinnen und Übersetzern und begrüßt weitere <a href="$1">Übersetzungen</a>.'
+  fr: 'WAI remercie ces traducteurs et traductrices, et accueille d’autres <a href="$1">traductions</a>.' # machine translation for demonstration purposes
+  es: 'WAI agradece a estos traductores y traductoras, y da la bienvenida a otras <a href="$1">traducciones</a>.' # machine translation for demonstration purposes
+  it: 'WAI ringrazia questi traduttori e dà il benvenuto ad altre <a href="$1">traduzioni</a>.' # machine translation for demonstration purposes
+  nl: 'WAI dankt deze vertalers en verwelkomt andere <a href="$1">vertalingen</a>.' # machine translation for demonstration purposes
+  pl: 'WAI dziękuje tym tłumaczom i z zadowoleniem przyjmuje inne <a href="$1">tłumaczenia</a>.' # machine translation for demonstration purposes
+
+
+
+
+
+
+
+
