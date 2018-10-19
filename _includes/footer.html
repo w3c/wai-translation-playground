@@ -6,21 +6,12 @@
   </div>
 </footer>
 {% else %}
-  {% if page.lang != "en "%}
-    {%- assign enpage=site.documents | where:"ref", page.ref | where: "lang", "en" | first -%}
-    <footer class="page-footer default-grid" aria-label="Page">
-      <div class="inner">
-        {{enpage.footer}}
-      </div>
-    </footer>
-  {% else %}
-    {% if page.footer %}
-    <footer class="page-footer default-grid" aria-label="Page">
-      <div class="inner">
-        {{page.footer}}
-      </div>
-    </footer>
-    {% endif %}
+  {% if page.footer %}
+  <footer class="page-footer default-grid" aria-label="Page">
+    <div class="inner">
+      {{page.footer}}
+    </div>
+  </footer>
   {% endif %}
 {% endif %}
 
