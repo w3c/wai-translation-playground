@@ -138,8 +138,7 @@ The first section creates an array of page urls that are page urls of this colle
 </nav>
 
 {%- unless page.url == "/" -%}
-<div class="default-grid breadcrumb">
-<nav style="grid-column: 2/8; display: flex;" class="" aria-label="Breadcrumb">
+<nav{% comment %} style="grid-column: 2/8; display: flex;"{% endcomment %} class="default-grid breadcrumb" aria-label="Breadcrumb">
   <ul style="align-self: center;">
     <li><a href="{{ "/" | relative_url }}">Home</a></li>
     {%- unless a_name == "" -%}<li><a href="{{ a_url | relative_url }}"{% if a_url == page.url%} aria-current="page"{%endif%}>{{a_name}}</a></li>{%- endunless -%}
@@ -167,11 +166,12 @@ The first section creates an array of page urls that are page urls of this colle
     {%- endif -%}
   </ul>
 </nav>
+{% comment %}
 {% if page.ref %}
   {%- if col.docs -%}
     {% assign pages=col.docs | where:"ref", page.ref | sort: 'lang' %}
   {%- else -%}
-    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% assign pages=site.documents | where:"ref", page.ref | sort: 'lang' %}
   {%- endif -%}
   {%- for p in pages %}
     {%-if forloop.first -%}
@@ -186,5 +186,5 @@ The first section creates an array of page urls that are page urls of this colle
     {%- endif -%}
   {% endfor -%}
 {% endif %}
-</div>
+{% endcomment %}
 {%- endunless -%}
