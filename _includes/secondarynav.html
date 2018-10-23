@@ -11,7 +11,7 @@
       {%- else -%}
         {% assign enpage=site.pages | where:"ref", page.ref | where: "lang", "en" | first %}
       {%- endif -%}
-      {% endcomment%}
+      {% endcomment %}
       {%- assign searchurl = enpage.url -%}
     {%- else -%}
       {%- assign searchurl = page.url -%}
