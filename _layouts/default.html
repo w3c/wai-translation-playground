@@ -25,7 +25,7 @@
     <h1>{% if page.title_icon %}<svg class="icon-in-title" aria-hidden="true"><use xlink:href="{{page.title_icon | relative_url}}"></use></svg> {% endif %}{% if page.title_html %}{{ page.title_html }}{% else %}{{ page.title }}{% endif %}</h1>
 
     {%- include doc-note-msg.html -%}
-    {% comment %}{% if page.lang != "en" %}{% endcomment %}{%- include translation-note-msg.html-%}{%comment%}{% endif %}{% endcomment %
+    {% comment %}{% if page.lang != "en" %}{% endcomment %}{%- include translation-note-msg.html-%}{%comment%}{% endif %}{% endcomment %}
 
     {{ content }}
 
