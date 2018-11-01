@@ -8,10 +8,21 @@ The first section creates an array of page urls that are page urls of this colle
   </p>
 </section>
 {%- endunless -%}
-<nav aria-label="Skip Link and Accessibility Options" id="controls" class="default-grid">
+<nav aria-label="Skip Link, Accessibility Options, and Language Selector" id="controls" class="default-grid">
   <ul>
-    <li><a href="#main">Skip to Content</a></li>
-    <li><a href="{{ "/meta/customize/" | relative_url }}">Change Text Size or Colors</a></li>
+    <li><a href="#main">{% include t.html t="Skip to Content" %}</a></li>
+    <li><a href="{{ "/meta/customize/" | relative_url }}">{% include t.html t="Change Text Size or Colors" %}</a></li>
+    {% if page.ref %}
+      {%- assign enpage=site.documents | where:"ref", page.ref | where: "lang", "en" | first -%}
+      {%- assign englishpageurl = enpage.url %}
+      {% assign pages=site.documents | where:"ref", page.ref | where_exp:"item", "item.lang != 'en'" | sort: 'lang' %}
+      {%- for p in pages %}
+        {%-if forloop.first -%}
+          <li>{% if 'en' == page.lang %}<strong style="text-transform: capitalize;">{{ site.data.lang['en'].nativeName }}</strong>{% else %}<a style="text-transform: capitalize;" href="{{ englishpageurl | relative_url }}" lang="en"><strong>{{ site.data.lang['en'].nativeName }}</strong></a>{% endif %}</li>
+        {%- endif -%}
+        <li>{% if p.lang == page.lang %}<strong style="text-transform: capitalize;">{{ site.data.lang[p.lang].nativeName }}</strong>{% else %}<a style="text-transform: capitalize;" href="{{ p.url | relative_url }}" lang="{{ p.lang }}">{{ site.data.lang[p.lang].nativeName }}</a>{% endif %}</li>
+      {% endfor -%}
+    {% endif %}
   </ul>
 </nav>
 <header id="site-header" class="default-grid with-gap">
@@ -23,24 +34,25 @@ The first section creates an array of page urls that are page urls of this colle
       <span class="wai"><span class="wa">Web&nbsp;Accessibility</span> <span class="i"><span class="initieative">Initiative</span> <span>WAI</span></span></span>
     </a>
     <div class="claim">
-      <span>Strategies, standards, resources to make the Web accessible to people with disabilities</span>
+      <span>{% include t.html t="Strategies, standards, resources to make the Web accessible to people with disabilities" %}</span>
     </div>
-    <button class="button button-menu" aria-haspopup="true" aria-expanded="false" id="openmenu"><span>{% include_cached icon.html name="menu" %} Menu</span></button>
+    <button class="button button-menu" aria-haspopup="true" aria-expanded="false" id="openmenu"><span>{% include_cached icon.html name="menu" %} {% include t.html t="Menu" %}</span></button>
   </div>
 
   <div class="navigations">
   <nav class="metanav" aria-label="Meta &amp; Search">
     <ul>
-      <li><a href="{{ "/about/participating/" | relative_url }}">Get Involved</a></li>
-      <li><a href="{{ "/about/" | relative_url }}">About W3C WAI</a></li>
+      <li><a href="{{ "/about/participating/" | relative_url }}">{% include t.html t="Get Involved" %}</a></li>
+      <li><a href="{{ "/about/" | relative_url }}">{% include t.html t="About W3C WAI" %}</a></li>
       <li>
         <form action="{{ "/search/" | relative_url }}" role="search">
           <div>
             <label for="header-search">
-              <span class="visuallyhidden">Search:</span>
-              <input id="header-search" type="search" name="q" placeholder="Search" aria-label="search">
+              <span class="visuallyhidden">{% include t.html t="Search" %}:</span>
+              <input id="header-search" type="search" name="q" placeholder="{% include t.html t="Search" %}" aria-label="{% include t.html t="Search" %}">
             </label>
-            <button class="button button-icon button-nobg button-noborder"><span>{% include_cached icon.html name="search" label="Submit Search" %}</span></button>
+            {%capture submitsearch%}{% include t.html t="Submit Search" %}{%endcapture%}
+            <button class="button button-icon button-nobg button-noborder"><span>{% include_cached icon.html name="search" label=submitsearch %}</span></button>
           </div>
         </form>
       </li>
@@ -164,7 +176,9 @@ The first section creates an array of page urls that are page urls of this colle
         {%- endfor -%}
     {%- endfor -%}
     {%- endif -%}
+    {% comment %}
     {% if page.ref %}<a href="#languagehead"><svg aria-hidden="true" style="display: inline; margin-right: .5em; height: auto; width: 2.75em; fill: currentcolor; vertical-align: middle;" viewBox="0 0 60 26" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero"><path d="M32 8a.988.988 0 0 1-.55.89L26 11.62V25a1.003 1.003 0 0 1-1 1H1a1.003 1.003 0 0 1-1-1V1a1.003 1.003 0 0 1 1-1h24c.552.002.998.448 1 1v3.38l5.45 2.73A.988.988 0 0 1 32 8zM17.007 21.336h3.717L14.959 5h-4.217L5 21.336h3.717l1.18-3.873h5.93l1.18 3.873zm-2.003-6.766h-4.24c1.158-3.746 1.859-6.094 2.103-7.044.06.267.158.63.295 1.09.138.46.751 2.445 1.842 5.954z"/><path d="M59 0H35a1.003 1.003 0 0 0-1 1v13.38l-5.45 2.73a.995.995 0 0 0 0 1.78L34 21.62V25c.002.552.448.998 1 1h24a1.003 1.003 0 0 0 1-1V1a1.003 1.003 0 0 0-1-1zm-5.684 18.052a1 1 0 1 1-.632 1.896 21.753 21.753 0 0 1-5.673-2.944 14.002 14.002 0 0 1-5.768 2.966 1 1 0 1 1-.486-1.94 12.094 12.094 0 0 0 4.633-2.273 24.408 24.408 0 0 1-3.17-3.132 1 1 0 0 1 1.56-1.25 23.594 23.594 0 0 0 3.095 3.002A14.643 14.643 0 0 0 49.605 10H41a1 1 0 0 1 0-2h5V7a1 1 0 0 1 2 0v1h5a1 1 0 0 1 0 2h-1.264a16.845 16.845 0 0 1-3.262 5.58 19.473 19.473 0 0 0 4.842 2.472z"/></g></svg></a>{% endif %}
+    {% endcomment %}
   </ul>
 </nav>
 {% comment %}
