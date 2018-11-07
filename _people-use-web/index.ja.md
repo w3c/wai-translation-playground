@@ -1,12 +1,12 @@
 ---
-title: "How People with Disabilities Use the Web"
+title: "どのように障害を持つ人々がウェブを利用するか"
 nav_title: Overview
-permalink: /people-use-web/
+permalink: /people-use-web/ja/
 order: 0
 description: Introduces how people with disabilities, including people with age-related impairments, use the Web.
 image: /content-images/wai-people-use-web/social.png
 ref: wai-people-use-web/index
-lang: en
+lang: ja
 last_updated: 2017-05-15
 translator: "Jane Smith"
 contributors: "John Smith, Jane Doe"

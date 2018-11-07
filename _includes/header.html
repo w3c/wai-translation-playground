@@ -9,9 +9,9 @@ The first section creates an array of page urls that are page urls of this colle
 </section>
 {%- endunless -%}
 <nav aria-label="Skip Link, Accessibility Options, and Language Selector" id="controls" class="default-grid">
-  <ul>
+  <ul style="flex-wrap: wrap;justify-content: flex-end;">
     <li><a href="#main">{% include t.html t="Skip to Content" %}</a></li>
-    <li><a href="{{ "/meta/customize/" | relative_url }}">{% include t.html t="Change Text Size or Colors" %}</a></li>
+    <!-- <li><a href="{{ "/meta/customize/" | relative_url }}">{% include t.html t="Change Text Size or Colors" %}</a></li> -->
     {% if page.ref %}
       {%- assign enpage=site.documents | where:"ref", page.ref | where: "lang", "en" | first -%}
       {%- assign englishpageurl = enpage.url %}
@@ -25,6 +25,42 @@ The first section creates an array of page urls that are page urls of this colle
     {% endif %}
   </ul>
 </nav>
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Sans+KR');
+  #controls>ul>li {
+    border: none;
+    padding: 0;
+  }
+  #controls>ul>li:first-child {
+    border-right: 1px solid #005A9C;
+    margin: 0 8px 0 0;
+    padding: 0 8px 0 0;
+  }
+  #controls>ul>li:nth-child(2) {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #controls>ul>li:first-child:before,
+  #controls>ul>li:nth-child(2):before {
+    display:none;
+    margin: 0;
+  }
+  #controls>ul>li:before {
+    content: "";
+    display: inline-block;
+    background-color: #005A9C;
+    width: 4px;
+    height: 4px;
+    margin: -3px 8px 0 0;
+    vertical-align: middle;
+  }
+  *:lang(ja) {
+    font-family: "Noto Sans", "Noto Sans JP", sans-serif;
+  }
+  *:lang(ko) {
+    font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+  }
+</style>
 <header id="site-header" class="default-grid with-gap">
   <div class="logos">
     <a lang="en" class="home w3c" href="{{ "https://www.w3.org/" | relative_url }}">

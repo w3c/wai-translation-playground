@@ -1,7 +1,7 @@
 {% assign enpage=site.documents | where:"ref", page.ref | where: "lang", "en" | first %}
 {% assign enupdatedate= enpage.last_updated | date: "%s" %}
 {% assign thisupdatedate= page.last_updated | date: "%s" %}
-<section id="translation-info" class="doc-note-box" style="font-size: .875rem;">
+<section id="translation-info" class="doc-note-box" style="font-size: .8125rem;">
   <h2 class="visuallyhidden">{% include t.html t="About this Translation" %}</h2>
   <p style="margin: 0 0 .5em 0;">{% assign replacepattern = enpage.url | relative_url | prepend: "$1|"  %}{% include t.html t='This volunteer translation might not accurately reflect the intentions of the <a href="$1">English original</a>.' replace=replacepattern %}</p>
   {% if page.lang == 'en' %}
