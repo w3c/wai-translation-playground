@@ -189,7 +189,7 @@ The first section creates an array of page urls that are page urls of this colle
 <nav{% comment %} style="grid-column: 2/8; display: flex;"{% endcomment %} class="default-grid breadcrumb" aria-label="Breadcrumb" lang="en">
   <ul style="align-self: center;">
     <li><a href="{{ "/" | relative_url }}">Home</a></li>
-    {%- unless a_name == "" -%}<li><a href="{{ a_url | relative_url }}"{% if a_url == page.url%} aria-current="page"{%endif%}>{{a_name}}</a></li>{%- endunless -%}
+    {%- unless a_name == "" -%}<li><a href="{{ a_url | relative_url }}"{% if a_url == page.url%} aria-current="page"{%endif%}>{% include_cached inpl.html lang=page.lang a=a_name %}</a></li>{%- endunless -%}
     {%- unless b_name == "" -%}<li><a href="{{ b_url | relative_url }}"{% if b_url == page.url%} aria-current="page"{%endif%}>{{b_name}}</a></li>{%- endunless -%}
     {%- unless c_name == "" -%}<li><a href="{{ c_url | relative_url }}"{% if c_url == page.url%} aria-current="page"{%endif%}>{{c_name}}</a></li>{%- endunless -%}
     {%- unless d_name == "" -%}<li><a href="{{ d_url | relative_url }}"{% if d_url == page.url%} aria-current="page"{%endif%}>{{d_name}}</a></li>{%- endunless -%}
