@@ -1,7 +1,7 @@
 ---
 title: "Jak osoby niepełnosprawne korzystają z Internetu"
 nav_title: Overview
-permalink: /people-use-web/pl/
+permalink: /people-use-web/pl
 order: 0
 description: Introduces how people with disabilities, including people with age-related impairments, use the Web.
 image: /content-images/wai-people-use-web/social.png

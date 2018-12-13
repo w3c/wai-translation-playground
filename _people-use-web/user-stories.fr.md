@@ -1,7 +1,7 @@
 ---
 title: "Quelques utilisateurs du Web"
 order: 1
-permalink: /people-use-web/user-stories/fr/
+permalink: /people-use-web/user-stories/fr
 description: Des personas de personnes atteintes de handicaps et utilisant le Web qui montrent l’effet des points de blocage non accessibles, et les avantages pour tous de faire des sites et des outils web accessibles.
 image: /content-images/wai-people-use-web/social.png
 ref: wai-people-use-web/user-stories

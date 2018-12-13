@@ -1,7 +1,7 @@
 ---
 title: "残障人士如何使用网络"
 nav_title: Overview
-permalink: /people-use-web/zh-hans/
+permalink: /people-use-web/zh-hans
 order: 0
 description: Introduces how people with disabilities, including people with age-related impairments, use the Web.
 image: /content-images/wai-people-use-web/social.png

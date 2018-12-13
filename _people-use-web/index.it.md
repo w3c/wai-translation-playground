@@ -1,7 +1,7 @@
 ---
 title: "Come le persone con disabilità utilizzano il Web"
 nav_title: Overview
-permalink: /people-use-web/it/
+permalink: /people-use-web/it
 order: 0
 description: Introduces how people with disabilities, including people with age-related impairments, use the Web.
 image: /content-images/wai-people-use-web/social.png

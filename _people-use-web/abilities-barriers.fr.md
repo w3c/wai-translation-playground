@@ -1,7 +1,7 @@
 ---
 title: "Des capacités et des points bloquants variés"
 order: 2
-permalink: /people-use-web/abilities-barriers/fr/
+permalink: /people-use-web/abilities-barriers/fr
 description: Explore la grande diversité de publics et de capacités et souligne quelques points bloquants en accessibilité web qu’on rencontre fréquemment à cause de sites et d’outils web inaccessibles.
 image: /content-images/wai-people-use-web/social.png
 ref: wai-people-use-web/abilities-barriers

@@ -1,7 +1,7 @@
 ---
 title: "Как люди с ограниченными возможностями используют Интернет"
 nav_title: Overview
-permalink: /people-use-web/ru/
+permalink: /people-use-web/ru
 order: 0
 description: Introduces how people with disabilities, including people with age-related impairments, use the Web.
 image: /content-images/wai-people-use-web/social.png

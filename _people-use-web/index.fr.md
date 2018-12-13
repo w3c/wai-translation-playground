@@ -1,7 +1,7 @@
 ---
 title: "Comment utilise-t-on le Web avec un handicap ?"
 nav_title: Introduction
-permalink: /people-use-web/fr/
+permalink: /people-use-web/fr
 order: 0
 description: Comment les personnes handicapées, y compris pour le cas des handicaps liés à l'âge, utilisent-elles le Web ?
 image: /content-images/wai-people-use-web/social.png

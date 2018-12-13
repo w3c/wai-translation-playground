@@ -1,7 +1,7 @@
 ---
 title: "Hoe mensen met een handicap het web gebruiken"
 nav_title: Overview
-permalink: /people-use-web/nl/
+permalink: /people-use-web/nl
 order: 0
 description: Introduces how people with disabilities, including people with age-related impairments, use the Web.
 image: /content-images/wai-people-use-web/social.png
