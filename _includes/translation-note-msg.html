@@ -1,3 +1,5 @@
+{% if page.lang %}
+{% unless page.lang=="en" %}
 {% assign enpage=site.documents | where:"ref", page.ref | where: "lang", "en" | first %}
 {% assign enupdatedate= enpage.last_updated | date: "%s" %}
 {% assign thisupdatedate= page.last_updated | date: "%s" %}
@@ -24,3 +26,5 @@
   {% endif %}
   <p style="margin: .5em 0 0 0;"><strong>{% include t.html t='Translator:' %}</strong> {{page.translator}}. {% include t.html t='Contributor:' %} {{page.contributors}}.{% assign replacepattern = "/about/translating/" | relative_url | prepend: "$1|"  %} {% include t.html t='WAI thanks these translators, and welcomes other <a href="$1">translations</a>.' replace=replacepattern %}</p>
 </section>
+{% endunless %}
+{% endif %}
