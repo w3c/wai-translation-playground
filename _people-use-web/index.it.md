@@ -33,15 +33,15 @@ tools.
 
 ## This resource includes the following pages
 
--   [**Stories of Web Users**]({{ "/people-use-web/user-stories/" | relative_url }}) – stories of selected
+-   <strong>{% include link.html to="/people-use-web/user-stories/" %}</strong> – stories of selected
     scenarios of people with disabilities using the Web, to highlight
     the effect of barriers and the broader benefits of accessible
     websites and web tools.
--   [**Diverse Abilities and Barriers**]({{ "/people-use-web/abilities-barriers/" | relative_url }}) – explores the
+-   <strong>{% include link.html to="/people-use-web/abilities-barriers/" %}</strong> – explores the
     wide range of diversity of people and abilities, and highlights some
     of the types of barriers that people commonly encounter due to
     inaccessible design.
--   [**Tools and Techniques**]({{ "/people-use-web/tools-techniques/" | relative_url }}) – introduces some of
+-   <strong>{% include link.html to="/people-use-web/tools-techniques/" %}</strong> – introduces some of
     the techniques and tools that people with disabilities use to
     interact with the Web, such as browser settings, text-to-speech,
     voice recognition, and many more.
