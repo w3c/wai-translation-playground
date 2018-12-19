@@ -5,11 +5,11 @@ permalink: /people-use-web/fr
 order: 0
 description: Comment les personnes handicapées, y compris pour le cas des handicaps liés à l'âge, utilisent-elles le Web ?
 image: /content-images/wai-people-use-web/social.png
-ref: wai-people-use-web/index
+ref: /people-use-web/
 lang: fr
 last_updated: 2018-09-12
 translator: "Stéphane Deschamps"
-contributors: "Denis Boudreau"
+contributors: "Not Denis Boudreau"
 footer: >
   <p><strong>Date:</strong> Updated 15 May 2017.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/shadi/">Shadi Abou_Zahra</a>. Previous editor: <a href="https://www.w3.org/People/Brewer/">Judy Brewer</a>. <a href="https://www.w3.org/WAI/intro/people-use-web/acknowledgments">Acknowledgments</a>.</p>
@@ -25,9 +25,9 @@ Cette ressource est une introduction pour comprendre comment des personnes attei
 
 ## Cette ressource comprend les pages suivantes
 
--   [**Quelques utilisateurs du Web**]({{ "/people-use-web/user-stories/fr/" | relative_url }})&#8239;: expose différents scénarios de personnes handicapées utilisant le Web, pour montrer les effets des points bloquants qu’elles rencontrent et les bénéfices plus larges induits par l’accessibilité des sites et des outils web.
--   [**Des capacités et des points bloquants variés**]({{ "/people-use-web/abilities-barriers/fr/" | relative_url }})&#8239;: présente la vaste diversité de gens et de capacités, et souligne quelques points bloquants qu’on rencontre fréquemmen face à un design inaccessible.
--   [**Outils et techniques**]({{ "/people-use-web/tools-techniques/fr/" | relative_url }})&#8239;: propose une introduction à des outils et des techniques que les personnes handicapées utilisent pour interagir avec le Web, tels que les réglages du navigateur, la synthèse vocale, la reconnaissance vocale, et bien d’autres méthodes.
+-   <strong>{% include link.html to="/people-use-web/user-stories/" %}</strong>&#8239;: expose différents scénarios de personnes handicapées utilisant le Web, pour montrer les effets des points bloquants qu’elles rencontrent et les bénéfices plus larges induits par l’accessibilité des sites et des outils web.
+-   <strong>{% include link.html to="/people-use-web/abilities-barriers/" %}</strong>&#8239;: présente la vaste diversité de gens et de capacités, et souligne quelques points bloquants qu’on rencontre fréquemmen face à un design inaccessible.
+-   <strong>{% include link.html to="/people-use-web/tools-techniques/" %}</strong>&#8239;: propose une introduction à des outils et des techniques que les personnes handicapées utilisent pour interagir avec le Web, tels que les réglages du navigateur, la synthèse vocale, la reconnaissance vocale, et bien d’autres méthodes.
 
 ## Ressources liées
 

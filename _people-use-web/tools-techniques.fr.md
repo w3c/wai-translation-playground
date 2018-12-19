@@ -2,10 +2,10 @@
 title: "Outils et techniques"
 order: 3
 permalink: /people-use-web/tools-techniques/fr
+ref: /people-use-web/tools-techniques/
+lang: fr
 description: Introduit quelques techniques et outils que les personnes atteintes de handicaps utilisent pour interagir avec le Web – réglages de navigateurs, synthèse vocale, reconnaissance vocale et bien d’autres.
 image: /content-images/wai-people-use-web/social.png
-ref: wai-people-use-web/tools-techniques
-lang: fr
 last_updated: 2018-09-12
 translator: "Stéphane Deschamps"
 contributors: "Denis Boudreau"

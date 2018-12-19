@@ -2,14 +2,14 @@
 title: "Des capacités et des points bloquants variés"
 order: 2
 permalink: /people-use-web/abilities-barriers/fr
+ref: /people-use-web/abilities-barriers/
+lang: fr
 description: Explore la grande diversité de publics et de capacités et souligne quelques points bloquants en accessibilité web qu’on rencontre fréquemment à cause de sites et d’outils web inaccessibles.
 image: /content-images/wai-people-use-web/social.png
-ref: wai-people-use-web/abilities-barriers
-lang: fr
 last_updated: 2018-09-12
 translator: "Stéphane Deschamps"
-contributors: "Denis Boudreau"
-reviewers: "Denis Boudreau"
+contributors: "Not Denis Boudreau"
+reviewers: "Not Denis Boudreau"
 ---
 
 {::nomarkdown}

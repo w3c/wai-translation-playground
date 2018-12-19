@@ -5,7 +5,7 @@ permalink: /people-use-web/ko
 order: 0
 description: Introduces how people with disabilities, including people with age-related impairments, use the Web.
 image: /content-images/wai-people-use-web/social.png
-ref: wai-people-use-web/index
+ref: /people-use-web/
 lang: ko
 last_updated: 2017-05-15
 translator: "Jane Smith"
