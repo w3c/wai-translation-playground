@@ -4,7 +4,7 @@
 {% else %}
 {%- assign link_page=site.documents | where: "permalink", include.to | first -%}
 {%- if link_page -%}
-<a href="{{link_page.url | relative_url }}">{{link_page.title}}</a> {% include t.html t="(in English)" %}
+<a href="{{link_page.url | relative_url }}">{{link_page.title}}</a> ({% include t.html t="in English" %})
 {%- else -%}
 {%- unless site.hideTranslationHints %}<mark><a href="https://www.w3.org/WAI/{{include.to}}">Link (off this repository)</mark> {% endunless -%}
 {%- endif -%}
