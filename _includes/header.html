@@ -255,11 +255,11 @@ The first section creates an array of page urls that are page urls of this colle
 {%- unless page.url == "/" -%}
 <nav{% comment %} style="grid-column: 2/8; display: flex;"{% endcomment %} class="default-grid breadcrumb" aria-label="Breadcrumb" lang="en">
   <ul style="align-self: center;">
-    <li><a href="{{ "/" | relative_url }}">Home</a></li>
-    {%- unless a_name == "" -%}<li><a href="{{ a_url | relative_url }}"{% if a_url == page.url%} aria-current="page"{%endif%}>{% include_cached inpl.html lang=page.lang a=a_name %}</a></li>{%- endunless -%}
-    {%- unless b_name == "" -%}<li><a href="{{ b_url | relative_url }}"{% if b_url == page.url%} aria-current="page"{%endif%}>{{b_name}}</a></li>{%- endunless -%}
-    {%- unless c_name == "" -%}<li><a href="{{ c_url | relative_url }}"{% if c_url == page.url%} aria-current="page"{%endif%}>{{c_name}}</a></li>{%- endunless -%}
-    {%- unless d_name == "" -%}<li><a href="{{ d_url | relative_url }}"{% if d_url == page.url%} aria-current="page"{%endif%}>{{d_name}}</a></li>{%- endunless -%}
+    <li><a href="{{ "/" | relative_url }}">{% include t.html t="Home" %}</a></li>
+    {%- unless a_name == "" -%}<li>{% if a_url == enpage.url %}{% include link.html to=a_url aria-current="page" %}{% else %}{% include link.html to=a_url %}{% endif %}</li>{%- endunless -%}
+    {%- unless b_name == "" -%}<li>{% if b_url == enpage.url %}{% include link.html to=b_url aria-current="page" %}{% else %}{% include link.html to=b_url %}{% endif %}</li>{%- endunless -%}
+    {%- unless c_name == "" -%}<li>{% if c_url == enpage.url %}{% include link.html to=c_url aria-current="page" %}{% else %}{% include link.html to=c_url %}{% endif %}</li>{%- endunless -%}
+    {%- unless d_name == "" -%}<li>{% if d_url == enpage.url %}{% include link.html to=d_url aria-current="page" %}{% else %}{% include link.html to=d_url %}{% endif %}</li>{%- endunless -%}
     {%- if col.parent == '/news/' -%}<li><a href="{{ '/news/' | relative_url }}">News</a></li>{%- endif -%}
     {%- if page.parent == "/"-%}<li><a href="{{ page.url | relative_url }}" aria-current="page">{{page.title}}</a></li>{%- endif -%}
     {%- if col.parent -%}
