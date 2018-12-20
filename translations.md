@@ -13,7 +13,7 @@ github:
 {%- for l in languages %}
 {% if l %}
 {% include excol.html type="start" id=l %}
-{{ site.data.lang[l].name }} (<span lang="{{l}}" bidi="auto">{{ site.data.lang[l].nativeName }}</span>)
+<span lang="{{l}}" bidi="auto">{{ site.data.lang[l].nativeName }}</span> ({{ site.data.lang[l].name }})
 {% include excol.html type="middle" %}
   {% assign pages=site.documents | where: "lang", l | sort: "title" %}
   {% for p in pages %}
